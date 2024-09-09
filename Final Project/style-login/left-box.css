@@ -1,5 +1,11 @@
 /*------------ Login container ------------*/
 
+body{
+    background: linear-gradient(to right, #c2c2c2 ,#6186ff) !important;
+}
+
+
+
 .box-area {
     width: 930px;
 }
@@ -7,7 +13,9 @@
 
 
 .foto-tmplet{
-    height: 400px;
+    height: 470px;
+    width: 390px !important;
+    border-radius: 10px;
 }
 
 
@@ -17,4 +25,17 @@
     border-radius: 150px 0 0 100px;
     z-index: 1000;
 
+}
+
+.carousel-inner{
+    box-shadow: 0 0 1px;
+    border: solid rgb(239, 239, 239) 1px;
+    border-radius: 10px;
+}
+
+
+#carouselExampleAutoplaying{
+    height: 470px;
+    width: 390px;
+    
 }
