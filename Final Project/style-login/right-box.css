@@ -5,13 +5,15 @@
 }
 .row-cont{
     background: linear-gradient(to right, #e2e2e2 ,#c9d6ff) !important;
-    box-shadow: 0 0 10px rgb(0 0 0 / 50%) !important;
+    box-shadow: 0 0 15px rgb(0 0 0 / 50%) !important;
     border: 2px solid rgb(255 255 255 / 50%) !important;
     backdrop-filter: blur(10px);
     
 }
 
+
 /*------------ Custom Placeholder ------------*/
+
 
 ::placeholder {
     font-size: 16px;

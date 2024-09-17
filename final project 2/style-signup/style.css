@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+/*------------ Login container ------------*/
+
+body{
+    background: linear-gradient(to right, #c2c2c2 ,#6186ff) !important;
+}
+
+
+
+.box-area {
+    width: 930px;
+}
+
+
+
+.foto-tmplet{
+    height: 470px;
+    width: 390px !important;
+    border-radius: 10px;
+}
+
+
+.left-box{
+    background: #dddddd0f;
+    transition: all 0.6s ease-in-out;
+    border-radius: 150px 0 0 100px;
+    z-index: 1000;
+
+}
+
+.carousel-inner{
+    box-shadow: 0 0 1px;
+    border: solid rgb(239, 239, 239) 1px;
+    border-radius: 10px;
+}
+
+
+#carouselExampleAutoplaying{
+    height: 490px;
+    width: 370px;
+    
+}
+
+
+
+
+
+
+
+
+/*------------ Right box ------------*/
+
+.right-box {
+    padding: 40px 30px 40px 40px;
+}
+.row-cont{
+    background: linear-gradient(to right, #e2e2e2 ,#c9d6ff) !important;
+    box-shadow: 0 0 15px rgb(0 0 0 / 50%) !important;
+    border: 2px solid rgb(255 255 255 / 50%) !important;
+    backdrop-filter: blur(10px);
+    
+}
+
+
+/*------------ Custom Placeholder ------------*/
+
+
+::placeholder {
+    font-size: 16px;
+}
+
+.rounded-4 {
+    border-radius: 20px;
+}
+
+.rounded-5 {
+    border-radius: 30px;
+}
+
+
+/*------------ For small screens------------*/
+
+@media only screen and (max-width: 768px) {
+
+    .box-area {
+        margin: 0 10px;
+
+    }
+
+    .left-box {
+        height: 100px;
+        overflow: hidden;
+    }
+
+    .right-box {
+        padding: 20px;
+    }
+
+}
+
+.icons a {
+    color: rgb(67, 67, 67);
+    bottom: 20px;
+    position: relative;
+   font-size:20px;
+   margin: 15px !important;
+
+}
+
+.icons a :hover{
+    color: #6186ff;
+}
