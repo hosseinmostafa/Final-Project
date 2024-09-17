@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handicrafts Navbar & Footer</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .navbar {
+            background-color: #fff; 
+        }
+        .navbar-brand {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .navbar-nav .nav-link {
+            color: #000 !important; 
+            font-size: 1rem;
+        }
+        .form-control {
+            border-radius: 0;
+        }
+        .navbar-light .navbar-toggler {
+            border-color: transparent;
+        }
+        .navbar-toggler {
+            outline: none;
+        }
+        .navbar-brand img {
+            height: 40px;
+        }
+        .icon-text {
+            display: inline-block;
+            font-size: 0.8rem;
+            margin-left: 5px;
+        }
+        .btn-signup {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+        }
+        .btn-signup:hover {
+            background-color: #0056b3;
+            color: #fff;
+        }
+        .navbar-nav .nav-item {
+            margin-left: 20px;
+        }
+        .search-bar-container {
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+        }
+        .navbar-collapse {
+            display: flex;
+            align-items: center;
+        }
+        footer {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+            <img src="logo.png" alt="Handicrafts Logo"> 
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links and Search Bar -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- Search Bar -->
+            <div class="search-bar-container">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="RESEARCH" aria-label="Search">
+                </form>
+            </div>
+
+            <!-- Links -->
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Add Page</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Payment</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-signup nav-link" href="#">Sign Up</a>
+                </li>
+            </ul>
+
+            <!-- User Icon -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-user"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Footer -->
+<footer class="bg-body-tertiary text-center">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #3b5998;"
+          href="https://www.facebook.com/YourCraftsPage"
+          role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+
+        <!-- Twitter -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #55acee;"
+          href="https://www.twitter.com/YourCraftsPage"
+          role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+
+        <!-- Google -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #dd4b39;"
+          href="https://plus.google.com/YourCraftsPage"
+          role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+
+        <!-- Instagram -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #ac2bac;"
+          href="https://www.instagram.com/YourCraftsPage"
+          role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+
+        <!-- Linkedin -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #0082ca;"
+          href="https://www.linkedin.com/in/YourCraftsPage"
+          role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+
+        <!-- Github -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #333333;"
+          href="https://github.com/YourCraftsPage"
+          role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2024 حقوق النشر:
+      <a class="text-body" href="#">YourCraftsWebsite.com</a>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
