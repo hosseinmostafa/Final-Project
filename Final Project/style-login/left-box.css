@@ -14,7 +14,7 @@ body{
 
 .foto-tmplet{
     height: 470px;
-    width: 390px !important;
+    width: 370px !important;
     border-radius: 10px;
 }
 
@@ -36,6 +36,6 @@ body{
 
 #carouselExampleAutoplaying{
     height: 470px;
-    width: 390px;
+    width: 370px;
     
 }
