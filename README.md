@@ -17,4 +17,5 @@ Database: MongoDB, with a schema designed to store artisan profiles, product inf
 
 ### Work is now being done on:
 Home page.
+<br/>
 Sign-in && Sign-up.
