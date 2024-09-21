@@ -23,12 +23,20 @@
       height: 70px !important;
       background-color: rgb(255, 255, 255) !important;
     }
+    .navbar .search-box {
+      width: 200px;
+    }
     .categories {
       padding-top: 100px;
+    }
+    .footer-copyright {
+      background-color: #333;
+      color: white;
     }
   </style>
 </head>
 <body class="bg-light">
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg bg-light fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">
@@ -43,7 +51,7 @@
             <a class="nav-link" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Categories</a>
+            <a class="nav-link" href="#">Add Items</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About Us</a>
@@ -52,6 +60,17 @@
             <a class="nav-link" href="#">Cart</a>
           </li>
         </ul>
+
+        <!-- Search box -->
+        <form class="d-flex mx-2 search-box">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+
+        <!-- User icon -->
+        <a href="#" class="btn btn-outline-secondary ms-2">
+          <i class="fas fa-user"></i>
+        </a>
       </div>
     </div>
   </nav>
@@ -89,158 +108,146 @@
       </div>
     </div>
   </section>
+
   <h2 class="d-flex justify-content-center">Our Products</h2>
-<!-- Items Section with 6 cards per row -->
-<section class="items bg-light py-5">
-  <div class="container">
-    <div class="row">
-      <!-- First 6 cards in a row -->
-      <div class="col-md-2">
-        <div class="card d-flex flex-column" style="height: 100%;">
-          <img src="./images/istockphoto-1029814734-2048x2048.jpg" style="height: 250px;" class="card-img-top" alt="pottery">
-          <div class="card-body d-flex flex-column justify-content-between">
-            <div>
-              <h5 class="card-title">Pottery</h5>
-              <p class="card-text">Handcrafted pottery made by skilled artisans, perfect for adding a rustic touch to your home decor.</p>
-            </div>
-            <a href="#" class="btn btn-primary mt-auto">Add to cart</a>
-          </div>
-        </div>
-      </div>
 
-      <div class="col-md-2">
-        <div class="card d-flex flex-column" style="height: 100%;">
-          <img src="./images/close-up-wicker-basket-table_1048944-1601339.jpg" style="height: 250px;" class="card-img-top" alt="handwoven">
-          <div class="card-body d-flex flex-column justify-content-between">
-            <div>
-              <h5 class="card-title">Handwoven</h5>
-              <p class="card-text">Authentic handwoven baskets made from natural materials, designed for both functionality and beauty.</p>
-            </div>
-            <a href="#" class="btn btn-primary mt-auto">Add to cart</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-2">
-        <div class="card d-flex flex-column" style="height: 100%;">
-          <img src="./images/terracotta-vase-with-indigenous-pattern_23-2151585752.jpg" style="height: 250px;" class="card-img-top" alt="pottery">
-          <div class="card-body d-flex flex-column justify-content-between">
-            <div>
-              <h5 class="card-title">Pottery</h5>
-              <p class="card-text">A unique terracotta vase with indigenous patterns, perfect for displaying flowers or as a standalone art piece.</p>
-            </div>
-            <a href="#" class="btn btn-primary mt-auto">Add to cart</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-2">
-        <div class="card d-flex flex-column" style="height: 100%;">
-          <img src="./images/istockphoto-1348009336-2048x2048.jpg" style="height: 250px;" class="card-img-top" alt="pottery">
-          <div class="card-body d-flex flex-column justify-content-between">
-            <div>
-              <h5 class="card-title">Pottery</h5>
-              <p class="card-text">Beautifully glazed pottery with intricate detailing, ideal for home decoration or practical use.</p>
-            </div>
-            <a href="#" class="btn btn-primary mt-auto">Add to cart</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-2">
-        <div class="card d-flex flex-column" style="height: 100%;">
-          <img src="./images/istockphoto-908993216-2048x2048.jpg" style="height: 250px;" class="card-img-top" alt="pottery">
-          <div class="card-body d-flex flex-column justify-content-between">
-            <div>
-              <h5 class="card-title">Pottery</h5>
-              <p class="card-text">Handcrafted ceramic pieces with an earthy design, adding a touch of tradition to your kitchen or living space.</p>
-            </div>
-            <a href="#" class="btn btn-primary mt-auto">Add to cart</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-2">
-        <div class="card d-flex flex-column" style="height: 100%;">
-          <img src="./images/hand-is-holding-colorful-bracelet-with-many-charms-including-star_1375-76338.jpg" style="height: 250px;" class="card-img-top" alt="Jewelry">
-          <div class="card-body d-flex flex-column justify-content-between">
-            <div>
-              <h5 class="card-title">Jewelry</h5>
-              <p class="card-text">A colorful handcrafted bracelet adorned with charms, perfect for adding a personal touch to your jewelry collection.</p>
-            </div>
-            <a href="#" class="btn btn-primary mt-auto">Add to cart</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
- <!-- Footer -->
- <footer class="bg-light text-bg-light pt-5">
-  <div class="container">
-    <div class="row text-center text-md-start">
-      <!-- About Section -->
-      <div class="col-md-4 mb-4">
-        <h5 class="text-uppercase fw-bold mb-3">About Us</h5>
-        <p class="text-muted">We provide top-notch web development services for all types of businesses and organizations, ensuring a strong digital presence.</p>
-      </div>
-
-      <!-- Quick Links Section -->
-      <div class="col-md-4 mb-4">
-        <h5 class="text-uppercase fw-bold mb-3">Quick Links</h5>
-        <ul class="list-unstyled">
-          <li class="mb-2"><a href="#" class="text-decoration-none text-muted">Home</a></li>
-          <li class="mb-2"><a href="#" class="text-decoration-none text-muted">Services</a></li>
-          <li class="mb-2"><a href="#" class="text-decoration-none text-muted">Contact</a></li>
-          <li><a href="#" class="text-decoration-none text-muted">Privacy Policy</a></li>
-        </ul>
-      </div>
-
-      <!-- Contact Section -->
-      <div class="col-md-4 mb-4">
-        <h5 class="text-uppercase fw-bold mb-3">Contact Us</h5>
-        <address class="text-muted">
-          123 Web Dev Street<br>
-          Cairo, Egypt<br>
-          Phone: <a href="tel:+201024887878" class="text-muted text-decoration-none">01024887878</a><br>
-          Email: <a href="mailto:omnia@gmail.com" class="text-muted text-decoration-none">handcrafted&#64;gmail.com</a>
-        </address>
-      </div>
-    </div>
-  </div>
-
-  <!-- Social media section -->
-  <div class="bg-light text-center py-3">
+  <!-- Items Section with 6 cards per row -->
+  <section class="items bg-light py-5">
     <div class="container">
-      <section class="mb-4">
-        <!-- Facebook -->
-        <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="https://www.facebook.com/YourCraftsPage" role="button"><i class="fab fa-facebook-f"></i></a>
-
-        <!-- Twitter -->
-        <a class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="https://www.twitter.com/YourCraftsPage" role="button"><i class="fab fa-twitter"></i></a>
-
-        <!-- Instagram -->
-        <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" href="https://www.instagram.com/YourCraftsPage" role="button"><i class="fab fa-instagram"></i></a>
-
-        <!-- LinkedIn -->
-        <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;" href="https://www.linkedin.com/in/YourCraftsPage" role="button"><i class="fab fa-linkedin-in"></i></a>
-
-        <!-- Github -->
-        <a class="btn text-white btn-floating m-1" style="background-color: #333333;" href="https://github.com/YourCraftsPage" role="button"><i class="fab fa-github"></i></a>
-      </section>
+      <div class="row">
+        <!-- Card 1 -->
+        <div class="col-md-2">
+          <div class="card d-flex flex-column" style="height: 100%;">
+            <img src="./images/istockphoto-1029814734-2048x2048.jpg" style="height: 250px;" class="card-img-top" alt="Pottery">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <div>
+                <h5 class="card-title">Pottery</h5>
+                <p class="card-text">Handcrafted pottery made by skilled artisans.</p>
+              </div>
+              <a href="#" class="btn btn-primary mt-auto">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-md-2">
+          <div class="card d-flex flex-column" style="height: 100%;">
+            <img src="./images/two-vases-with-leaf-background_864013-3250.jpg" style="height: 250px;" class="card-img-top" alt="Pottery">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <div>
+                <h5 class="card-title">Pottery Vases</h5>
+                <p class="card-text">Beautiful vases handcrafted from clay.</p>
+              </div>
+              <a href="#" class="btn btn-primary mt-auto">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-md-2">
+          <div class="card d-flex flex-column" style="height: 100%;">
+            <img src="./images/539cfb9c-a4f4-4f2f-a9df-44ad260515c3.jpeg" style="height: 250px;" class="card-img-top" alt="Blankets">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <div>
+                <h5 class="card-title">Handwoven Blankets</h5>
+                <p class="card-text">Warm and cozy blankets made from natural fibers.</p>
+              </div>
+              <a href="#" class="btn btn-primary mt-auto">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="col-md-2">
+          <div class="card d-flex flex-column" style="height: 100%;">
+            <img src="./images/42d87af3-ed23-4046-afc8-75c003ae23ee.jpeg" style="height: 250px;" class="card-img-top" alt="Jewelry">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <div>
+                <h5 class="card-title">Jewelry</h5>
+                <p class="card-text">Exquisite handmade jewelry pieces.</p>
+              </div>
+              <a href="#" class="btn btn-primary mt-auto">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card 5 -->
+        <div class="col-md-2">
+          <div class="card d-flex flex-column" style="height: 100%;">
+            <img src="./images/istockphoto-508423778-2048x2048.jpg" style="height: 250px;" class="card-img-top" alt="Basket">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <div>
+                <h5 class="card-title">Handwoven Basket</h5>
+                <p class="card-text">Eco-friendly baskets made by local artisans.</p>
+              </div>
+              <a href="#" class="btn btn-primary mt-auto">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card 6 -->
+        <div class="col-md-2">
+          <div class="card d-flex flex-column" style="height: 100%;">
+            <img src="./images/coffee-cup-cookies-scarf-decorated-with-leaves-flowers-white-background_23-2147940384.jpg" style="height: 250px;" class="card-img-top" alt="Scarf">
+            <div class="card-body d-flex flex-column justify-content-between">
+              <div>
+                <h5 class="card-title">Handmade Scarf</h5>
+                <p class="card-text">Beautiful scarves made from natural fibers.</p>
+              </div>
+              <a href="#" class="btn btn-primary mt-auto">Add to cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-light text-bg-light pt-5">
+    <div class="container">
+      <div class="row text-center text-md-start">
+        <!-- About Section -->
+        <div class="col-md-4 mb-4">
+          <h5 class="text-uppercase fw-bold mb-3">About Us</h5>
+          <p class="text-muted">We provide top-notch web development services for all types of businesses and organizations.</p>
+        </div>
 
-  <!-- Copyright Section -->
-  <div class="bg-dark text-center text-muted py-3 border-top border-light">
-    <p class="mb-0">&copy; 2024 Your Crafts Website. All Rights Reserved.</p>
-  </div>
-</footer>
+        <!-- Quick Links Section -->
+        <div class="col-md-4 mb-4">
+          <h5 class="text-uppercase fw-bold mb-3">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#" class="text-decoration-none text-muted">Home</a></li>
+            <li class="mb-2"><a href="#" class="text-decoration-none text-muted">Services</a></li>
+            <li class="mb-2"><a href="#" class="text-decoration-none text-muted">Contact</a></li>
+            <li><a href="#" class="text-decoration-none text-muted">Privacy Policy</a></li>
+          </ul>
+        </div>
 
+        <!-- Contact Section -->
+        <div class="col-md-4 mb-4">
+          <h5 class="text-uppercase fw-bold mb-3">Contact Us</h5>
+          <address class="text-muted">
+            123 Web Dev Street<br>
+            Cairo, Egypt<br>
+            Email: <a href="mailto:omnia@gmail.com" class="text-muted text-decoration-none">handcrafted&#64;gmail.com</a>
+          </address>
+        </div>
+      </div>
+    </div>
 
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Social media section -->
+    <div class="bg-light text-center py-3">
+      <div class="container">
+        <section class="mb-4">
+          <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="https://www.facebook.com/YourCraftsPage" role="button"><i class="fab fa-facebook-f"></i></a>
+          <a class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="https://www.twitter.com/YourCraftsPage" role="button"><i class="fab fa-twitter"></i></a>
+          <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" href="https://www.instagram.com/YourCraftsPage" role="button"><i class="fab fa-instagram"></i></a>
+          <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;" href="https://www.linkedin.com/YourCraftsPage" role="button"><i class="fab fa-linkedin-in"></i></a>
+        </section>
+      </div>
+    </div>
 
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">
+      <p class="text-white">© 2024 Egyptian Handcrafted Treasures</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
