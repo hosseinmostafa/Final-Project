@@ -1,4 +1,4 @@
-### Egyptian Handicrafts Project
+# Egyptian Handicrafts Project
 
 ## Overview:
 This project aims to promote and preserve traditional Egyptian handicrafts by creating a platform for artisans to showcase and sell their products.
@@ -15,6 +15,6 @@ Frontend: Built using HTML, CSS, and JavaScript, with a responsive design for op
 Backend: Built using Node.js, Express, and MongoDB, with a RESTful API for data storage and retrieval.
 Database: MongoDB, with a schema designed to store artisan profiles, product information, and customer data.
 
-# Work is now being done on:
+### Work is now being done on:
 Home page.
 Sign-in && Sign-up.
