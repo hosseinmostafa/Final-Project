@@ -17,7 +17,9 @@ Marketplace: An e-commerce platform for artisans to sell their products to custo
 ## Technical Requirements:
 <p>
 Frontend: Built using HTML, CSS, and JavaScript, and ( Bootstrap, Angular )  with a responsive design for optimal user experience.
+<br>
 Backend: Built using Node.js, Express, and MongoDB, with a RESTful API for data storage and retrieval.
+<br>
 Database: MongoDB, with a schema designed to store artisan profiles, product information, and customer data.
 </p>
 
