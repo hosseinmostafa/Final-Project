@@ -5,60 +5,40 @@ import { Component, ElementRef } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './sgin-in-sign-up.component.html',
-  styleUrl: './sgin-in-sign-up.component.scss'
+  styleUrls: ['./sgin-in-sign-up.component.scss']
 })
 export class SginInSignUpComponent {
   img1: string = "./img-Sign/add-to-cart-animate (3).svg"
   img2: string = "./img-Sign/online-shopping-animate.svg"
 
-  
   constructor(private elementRef: ElementRef) { }
 
   ngAfterViewInit(): void {
     const sign_in_btn = this.elementRef.nativeElement.querySelector('#sign-in-btn');
     const sign_up_btn = this.elementRef.nativeElement.querySelector('#sign-up-btn');
-    const container = this.elementRef.nativeElement.querySelector('.containe');
+    const container = this.elementRef.nativeElement.querySelector('.container');
 
+    const sign_in_btn2 = this.elementRef.nativeElement.querySelector('#sign-in-btn2');
+    const sign_up_btn2 = this.elementRef.nativeElement.querySelector('#sign-up-btn2');
+
+    // Adding 'sign-up-mode' when sign-up button is clicked
     sign_up_btn.addEventListener('click', () => {
       container.classList.add('sign-up-mode');
     });
 
+    // Removing 'sign-up-mode' when sign-in button is clicked
     sign_in_btn.addEventListener('click', () => {
       container.classList.remove('sign-up-mode');
     });
 
-    // password Sign-in
-    const pass = this.elementRef.nativeElement.querySelector('#password');
-    const btn = this.elementRef.nativeElement.querySelector('#btn');
-    const icon = this.elementRef.nativeElement.querySelector('.icon');
-
-    btn.addEventListener('click', () => {
-      if (pass.type === 'text') {
-        pass.type = 'password';
-        icon.classList.remove('fa-eye');
-        icon.classList.add('fa-eye-slash');
-      } else {
-        pass.type = 'text';
-        icon.classList.add('fa-eye');
-        icon.classList.remove('fa-eye-slash');
-      }
+    // Adding 'sign-up-mode2' when second sign-up button is clicked
+    sign_up_btn2.addEventListener('click', () => {
+      container.classList.add('sign-up-mode2');
     });
 
-    // password Sign-up
-    const pass2 = this.elementRef.nativeElement.querySelector('#password2');
-    const btn2 = this.elementRef.nativeElement.querySelector('#btn2');
-    const icon2 = this.elementRef.nativeElement.querySelector('.icon2');
-
-    btn2.addEventListener('click', () => {
-      if (pass2.type === 'text') {
-        pass2.type = 'password';
-        icon2.classList.remove('fa-eye');
-        icon2.classList.add('fa-eye-slash');
-      } else {
-        pass2.type = 'text';
-        icon2.classList.add('fa-eye');
-        icon2.classList.remove('fa-eye-slash');
-      }
+    // Removing 'sign-up-mode2' when second sign-in button is clicked
+    sign_in_btn2.addEventListener('click', () => {
+      container.classList.remove('sign-up-mode2');
     });
   }
 }
