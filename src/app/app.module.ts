@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './Component/home/home.component';
 import { SginInSignUpComponent } from './Component/sgin-in-sign-up/sgin-in-sign-up.component';
+import { HeaderComponent } from './Component/header/header.component';
+import { FooterComponent } from './Component/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    SginInSignUpComponent
+    SginInSignUpComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
