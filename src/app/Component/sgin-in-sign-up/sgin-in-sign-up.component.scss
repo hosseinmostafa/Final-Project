@@ -48,15 +48,7 @@
     justify-content: center;
     flex-direction: column;
     min-width: 420px;
-    position: relative;
-    width: 40vw;
-    height: 570px;
-    background: transparent;
-    backdrop-filter: blur(10px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 40px;
+
 }
 
 .fb {
@@ -102,6 +94,7 @@ form.sign-up-form {
     align-items: center;
     background: transparent;
     font-size: 1em;
+    // margin-left: 10px;
 
 }
 
@@ -110,6 +103,7 @@ form.sign-up-form {
     text-align: center;
     color: #666;
     font-size: 18px;
+    
 
 }
 
@@ -117,6 +111,7 @@ form.sign-up-form {
     flex: 5;
     width: 100px;
     font-size: 18px;
+    
 }
 
 .btn {

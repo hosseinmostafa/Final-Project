@@ -40,22 +40,18 @@ export class SginInSignUpComponent {
     const sign_in_btn2 = this.elementRef.nativeElement.querySelector('#sign-in-btn2');
     const sign_up_btn2 = this.elementRef.nativeElement.querySelector('#sign-up-btn2');
 
-    // Adding 'sign-up-mode' when sign-up button is clicked
     sign_up_btn.addEventListener('click', () => {
       container.classList.add('sign-up-mode');
     });
 
-    // Removing 'sign-up-mode' when sign-in button is clicked
     sign_in_btn.addEventListener('click', () => {
       container.classList.remove('sign-up-mode');
     });
 
-    // Adding 'sign-up-mode2' when second sign-up button is clicked
     sign_up_btn2.addEventListener('click', () => {
       container.classList.add('sign-up-mode2');
     });
 
-    // Removing 'sign-up-mode2' when second sign-in button is clicked
     sign_in_btn2.addEventListener('click', () => {
       container.classList.remove('sign-up-mode2');
     });
