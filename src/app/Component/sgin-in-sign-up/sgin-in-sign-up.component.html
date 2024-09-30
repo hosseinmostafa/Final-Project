@@ -3,46 +3,40 @@
     <div class="siginin-signup">
 
         <div class="form-container ">
-            <form action="" class="sign-in-form">
-
+            <form class="sign-in-form ft" #registerForm="ngForm" (ngSubmit)="onSubmit()" novalidate>
                 <h2 class="title">Sign in</h2>
 
-                <div class="input-field">
-                    <!-- icon -->
-                    <input type="email" name="" placeholder="Email" id="">
+                <div class="input-field form-floating mb-3 rounded-4">
+                    <input type="email" autofocus [(ngModel)]="userModel.email" name="email" #email="ngModel"
+                        type="email" class="form-control " id="floatingInput" aria-describedby="emailHelp"
+                        pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" required
+                        [class.is-invalid]="email.invalid && email.touched">
+                    <label for="floatingInput">Email address</label>
                 </div>
+                <small *ngIf="email.invalid && email.touched" class="text-danger">Email is required</small>
 
-                <div class="input-field" style="margin-bottom:30px;">
-                    <!-- icon -->
-                    <input type="password" name="" placeholder="Password" id="">
-
-
+                <div class="input-field form-floating">
+                    <input [(ngModel)]="userModel.password" autofocus name="password" #password="ngModel" ngModel
+                        type="password" class="form-control" id="floatingPassword" required
+                        [class.is-invalid]="password.invalid && password.touched">
+                    <label for="floatingPassword">Password</label>
                 </div>
+                <small *ngIf="password.invalid && password.touched" class="text-danger">Password is required</small>
 
                 <input type="submit" value="Login" class="btn">
                 <p class="social-text">Or Sign in with social platform</p>
-
                 <div class="social-media">
-
                     <a href="#" class="social-icon">
-
                         <i class="fab fa-facebook"></i>
-
                     </a>
                     <a href="#" class="social-icon">
-
                         <i class="fab fa-twitter"></i>
-
                     </a>
                     <a href="#" class="social-icon">
-
                         <i class="fab fa-google"></i>
-
                     </a>
                     <a href="#" class="social-icon">
-
-                        <i class="fab fa-linkedin-in"></i>
-
+                        <i class="fab fa-instagram"></i>
                     </a>
                 </div>
                 <p class="account-text">Don't have an account? <a href="#" id="sign-up-btn2">Sign up</a></p>
@@ -52,63 +46,74 @@
         <!-- --------------------------------- -->
 
         <div class="form-container">
-            <form action="" class="sign-up-form">
+            <form action="" class="sign-up-form fb" [formGroup]="regsetForm" novalidate>
                 <h2 class="title">Sign up</h2>
 
-                <div class="input-field">
+                <div class="input-field form-floating mb-3 rounded-4">
                     <!-- icon -->
-                    <input type="text" name="" placeholder="Frist Name" id="">
-                    <div class="line"></div>
-                    <input type="text" name="" placeholder=" Last Name" id="">
+                    <input pattern="[a-zA-Z]*"
+                        [class.is-invalid]="regsetForm.get('userName')?.touched && regsetForm.get('userName')?.invalid"
+                        formControlName="userName" type="text" class="form-control" aria-label="Name">
+
+                    <label for="floatingUserName">User Name</label>
+                </div>
+                <div *ngIf="regsetForm.get('userName')?.touched && regsetForm.get('userName')?.invalid">
+                    <small class="text-danger" *ngIf="regsetForm.get('userName')?.errors?.['required']">Name is
+                        required</small>
+                    <small class="text-danger" *ngIf="regsetForm.get('userName')?.errors?.['minlength']">maximum name is
+                        3 characters at
+                        least</small>
+                    <small class="text-danger" *ngIf="regsetForm.get('userName')?.errors?.['forbiddenName']">UserName
+                        admin is not
+                        allwod</small>
                 </div>
 
 
-                <div class="input-field">
-                    <!-- icon -->
-                    <input type="email" name="" placeholder="Email" id="">
+                <div class="input-field form-floating">
+                    <input type="email" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" aria-describedby="emailHelp"
+                        [class.is-invalid]="regsetForm.get('Email')?.touched && regsetForm.get('Email')?.invalid"
+                        formControlName="Email" type="text" class="form-control" aria-label="Email" id="validationTextarea" required>
+                        <label for="validationTextarea">Email address</label>
                 </div>
+                <!-- <small *ngIf="email.invalid && email.touched" class="text-danger">Email is required</small> -->
 
-                <div class="input-field">
+                <div class="input-field form-floating">
                     <!-- icon -->
-                    <input type="password" name="" placeholder="Password" id="">
+                    <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1">
+                    <label for="floatingPassword">Password</label>
                 </div>
-                <div class="input-field">
-                    <!-- icon -->
-                    <input type="password" name="" placeholder="Confirm Password" id="">
+                <small *ngIf="regsetForm.get('password')?.touched && regsetForm.get('password')?.invalid"
+                    class="text-danger">Password
+                    is required</small>
+
+
+                <div class="input-field form-floating">
+                    <input formControlName="confirmPassword" type="password" class="form-control"
+                        [class.is-invalid]="regsetForm.errors?.['misMatch']" id="exampleInputPassword1">
+
+                    <label for="floatingPassword">Confirm Password</label>
                 </div>
 
                 <input type="submit" value="Sign up" class="btn">
                 <p class="social-text">Or Sign in with social platform</p>
-
                 <div class="social-media">
                     <a href="#" class="social-icon">
-
                         <i class="fab fa-facebook"></i>
-
                     </a>
                     <a href="#" class="social-icon">
-
                         <i class="fab fa-twitter"></i>
-
                     </a>
                     <a href="#" class="social-icon">
-
                         <i class="fab fa-google"></i>
-
                     </a>
                     <a href="#" class="social-icon">
-
-                        <i class="fab fa-linkedin-in"></i>
-
+                        <i class="fab fa-instagram"></i>
                     </a>
                 </div>
 
                 <p class="account-text">Already have an account? <a href="#" id="sign-in-btn2">Sign in</a></p>
-
             </form>
-
         </div>
-
     </div>
     <div class="panels-container">
 
@@ -121,7 +126,6 @@
                 <button class="btn" id="sign-in-btn">Sign in</button>
             </div>
             <!-- img -->
-
         </div>
         <div class="panel right-panel">
 
@@ -135,8 +139,6 @@
                 </div>
             </div>
             <!-- img -->
-
-
         </div>
     </div>
 
