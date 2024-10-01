@@ -1,49 +1,44 @@
-<nav class="navbar navbar-expand-lg bg-light fixed-top " style="height: 60px !important;">
-                    <a class="navbar-brand" href="#">
-                        <img src="./assests/logo-no-background.svg" alt="Logo"
-                            style="height: 300px; width: 300px;padding-left: 100px;">
-                    </a>
-                    <div class="container">
-                        
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                          </button>
-                          <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav ms-auto">
-                              <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#">Add Items</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#">About Us</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#">Cart</a>
-                              </li>
-                            </ul>
-                    
-                            <!-- Search box -->
-                            <form class="d-flex mx-2 search-box">
-                              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                              <button class="btn btn-outline-secondary" type="submit"><i class="fas fa-search"></i></button>
-                            </form>
-            
-                            
-                    
-                            <!-- User icon -->
-                            <a href="#" class="btn btn-outline-secondary ms-2">
-                              <i class="fas fa-user"></i>
-                            </a>
-                          </div>
-                        </div>
-                         <!-- Login button -->
-                         <a class="btn btn-outline-secondary ms-2 m-5" 
-                         onmouseover="this.querySelector('.login-text').style.display='inline'; this.querySelector('.login-icon').style.opacity='0.5';" 
-                         onmouseout="this.querySelector('.login-text').style.display='none'; this.querySelector('.login-icon').style.opacity='1';" routerLink="sign-in">
-                         <i class="fa-solid fa-arrow-right-to-bracket login-icon"></i>
-                         <span class="ms-2 login-text" style="display: none;">Login</span>
-                         
-                     </a>
-                      </nav>
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container-fluid">
+    <!-- Logo aligned to the left -->
+    <a class="navbar-brand" href="/">
+      <img src="./assests/logo-no-background.svg" alt="Logo" class="logo">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main"
+      aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse fw-bold" id="main">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link p-2 p-lg-3 " routerLink="/home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link p-2 p-lg-3" routerLink="/">Add Items</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  p-2 p-lg-3" routerLink="/">Cart</a>
+        </li>
+        
+      </ul>
+
+  
+
+      <!-- User icon -->
+      <a routerLink="/sgin-in-sign-up" class="btn btn-outline-secondary ms-2 icont">
+        <i class="fas fa-user"></i>
+      </a>
+       <!-- Login button -->
+       <a class="btn btn-outline-secondary ms-2 m-5 icont"
+       (mouseover)="showLoginText()"
+       (mouseout)="hideLoginText()"
+       routerLink="/">
+       <i class="fa-solid fa-arrow-right-to-bracket login-icon" [style.opacity]="loginIconOpacity"></i>
+       <span class="ms-2 login-text" [style.display]="loginTextVisible ? 'inline' : 'none'">Payment</span>
+   </a>
+   
+    </div>
+  </div>
+</nav>
