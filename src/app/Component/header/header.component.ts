@@ -13,6 +13,7 @@ export class HeaderComponent {
   showLoginText(): void {
     this.loginTextVisible = true;
     this.loginIconOpacity = 0.5;
+
   }
 
   // Method to hide the login text and reset the icon opacity

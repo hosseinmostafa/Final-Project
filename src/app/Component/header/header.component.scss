@@ -1,9 +1,10 @@
-
 .navbar {
     height: 70px !important;
     padding: 0.5rem 1rem;
-    background:  #D4A95A;
-}   
+    background: var(--color-gradient);
+    box-shadow: 0 0 30px rgb(0 0 0 / 50%);
+
+}
 
 
 .logo {
@@ -11,9 +12,25 @@
     width: auto;
 }
 
+.nav-link {
+    color: #66483b !important;
+    transition: .3s;
+}
+.nav-link:hover {
+    color: white !important;
+    // color: #66483b !important;
+}
 
+.icont{
+    color: #EEE2DC !important;
+    background-color: #66483b !important;
+    border: none;
+    transition: .3s;
 
+}
 
-.nav-link.active {
-    color:#D4A95A !important;
+.icont:hover{
+    color: #D4A95A !important;
+    background-color: #66483b !important;
+    border: none;
 }

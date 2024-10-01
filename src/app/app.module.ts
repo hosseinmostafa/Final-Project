@@ -16,6 +16,7 @@ import { SginInSignUpComponent } from './Component/sgin-in-sign-up/sgin-in-sign-
 import { HeaderComponent } from './Component/header/header.component';
 import { FooterComponent } from './Component/footer/footer.component';
 import { NotFondComponent } from './Component/notFond/not-fond/not-fond.component';
+import { PaymentComponent } from './Component/payment/payment.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { NotFondComponent } from './Component/notFond/not-fond/not-fond.componen
     HeaderComponent,
     FooterComponent,
     NotFondComponent,
+    PaymentComponent,
   ],
   imports: [
     BrowserModule,
