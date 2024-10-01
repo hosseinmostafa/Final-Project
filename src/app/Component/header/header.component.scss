@@ -1,3 +1,19 @@
-.active{
-    color: red !important;
+
+.navbar {
+    height: 70px !important;
+    padding: 0.5rem 1rem;
+    background:  #D4A95A;
+}   
+
+
+.logo {
+    height: 30px;
+    width: auto;
+}
+
+
+
+
+.nav-link.active {
+    color:#D4A95A !important;
 }

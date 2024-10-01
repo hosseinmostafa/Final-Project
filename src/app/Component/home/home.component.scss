@@ -1,5 +1,5 @@
 .hero {
-    background: url('../../../../public/assests/oshin-khandelwal-OVpUFAvwhNA-unsplash.jpg') no-repeat center center;
+    background: url('https://img.freepik.com/free-photo/egyptian-wall-with-hieroglyphs_23-2151617109.jpg?uid=R83961049&ga=GA1.1.1995512102.1711238667&semt=ais_hybrid') no-repeat center center;
    background-size: cover;
    height: 100vh;
    /* Full height of the viewport */
@@ -7,7 +7,7 @@
    justify-content: center;
    align-items: center;
    text-align: center;
-   color: white;
+   color: rgb(0, 0, 0);
 }
 
 .navbar {
@@ -17,4 +17,8 @@
 
 .categories {
    padding-top: 100px;
+}
+.btn{
+   background-color: #D4A95A;
+   color: rgb(0, 0, 0);
 }
