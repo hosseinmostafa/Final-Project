@@ -17,12 +17,7 @@ import { HeaderComponent } from './Component/header/header.component';
 import { FooterComponent } from './Component/footer/footer.component';
 import { NotFondComponent } from './Component/notFond/not-fond/not-fond.component';
 import { PaymentComponent } from './Component/payment/payment.component';
-<<<<<<< HEAD
 import { UsersComponent } from './Component/users/users.component';
-=======
-import { AddProductComponent } from './Component/add-product/add-product.component';
-
->>>>>>> bc287167159438fe52f4ba10f8a3f8a931821f45
 
 @NgModule({
   declarations: [
@@ -33,11 +28,7 @@ import { AddProductComponent } from './Component/add-product/add-product.compone
     FooterComponent,
     NotFondComponent,
     PaymentComponent,
-<<<<<<< HEAD
     UsersComponent,
-=======
-    AddProductComponent,
->>>>>>> bc287167159438fe52f4ba10f8a3f8a931821f45
   ],
   imports: [
     BrowserModule,
