@@ -2,9 +2,11 @@
 
   overflow: hidden;
 
+
 }
 .jld{
-  background-image: linear-gradient(150deg,rgb(214, 172, 0),rgb(255, 251, 231));
+  background: var(--color-gradient);
+
 }
 
 .addtext{
@@ -17,7 +19,7 @@
 }
 
 .proinfo{
-  box-shadow: 2px 5px 5px  ;
+  box-shadow: 0px 0px 5px  ;
   border-radius: 10px;
   padding: 20px;
   // background: #ff0101;
@@ -49,7 +51,7 @@
 
 
 .addimg{
-  box-shadow: 2px 5px 15px  ;
+  box-shadow: 0px 0px 5px rgb(100, 80, 0) ;
   border-radius: 10px;
   padding: 10px;
   // background: #ff0101;

@@ -7,6 +7,7 @@ import { FooterComponent } from './Component/footer/footer.component';
 import { PotteryComponent } from './Component/pottery/pottery.component';
 import { NotFondComponent } from './Component/notFond/not-fond/not-fond.component';
 import { PaymentComponent } from './Component/payment/payment.component';
+import { AddProductComponent } from './Component/add-product/add-product.component';
 
 const routes: Routes = [
   {path: "", component : HomeComponent},
@@ -14,6 +15,7 @@ const routes: Routes = [
   {path: "sgin-in-sign-up", component : SginInSignUpComponent},
   {path: "pottery", component : PotteryComponent},
   {path: "payment", component : PaymentComponent},
+   {path: "add-prouduct", component : AddProductComponent},
   {path: "**", component : NotFondComponent}
 ];
 
@@ -21,6 +23,6 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { 
+export class AppRoutingModule {
 
 }
