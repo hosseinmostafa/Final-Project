@@ -40,30 +40,6 @@
         </li>
       </ul>
 
-      <!-- User icon -->
-      <a
-        routerLink="/sgin-in-sign-up"
-        class="btn btn-outline-secondary ms-2 icont"
-      >
-        <i class="fas fa-user"></i>
-      </a>
-      <!-- Login button -->
-      <a
-        class="btn btn-outline-secondary ms-2 m-5 icont"
-        (mouseover)="showLoginText()"
-        (mouseout)="hideLoginText()"
-        routerLink="/"
-      >
-        <i
-          class="fa-solid fa-arrow-right-to-bracket login-icon"
-          [style.opacity]="loginIconOpacity"
-        ></i>
-        <span
-          class="ms-2 login-text"
-          [style.display]="loginTextVisible ? 'inline' : 'none'"
-          >Payment</span
-        >
-      </a>
 
       <a
         routerLink="/sgin-in-sign-up"
