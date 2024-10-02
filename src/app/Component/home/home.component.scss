@@ -1,20 +1,81 @@
 .hero {
-    background: url('../../../../public/assests/oshin-khandelwal-OVpUFAvwhNA-unsplash.jpg') no-repeat center center;
+   background: url('https://img.freepik.com/free-photo/egyptian-wall-with-hieroglyphs_23-2151617109.jpg?uid=R83961049&ga=GA1.1.1995512102.1711238667&semt=ais_hybrid') no-repeat center center;
    background-size: cover;
    height: 100vh;
-   /* Full height of the viewport */
    display: flex;
    justify-content: center;
    align-items: center;
    text-align: center;
-   color: white;
-}
-
-.navbar {
-   height: 70px !important;
-   background-color: rgb(255, 255, 255) !important;
+   color: wheat;
+   position: relative;
+   z-index: 0;
+   &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: -1;
+   }
 }
 
 .categories {
    padding-top: 100px;
+}
+
+.icont {
+   color: #EEE2DC !important;
+   background-color: #66483b !important;
+   border: none;
+}
+
+.icont:hover {
+   color: #D4A95A !important;
+   background-color: #66483b !important;
+   border: none;
+}
+
+
+.our-work ul .active {
+   background-color: var(--green-color);
+   color: var(--section-color);
+}
+
+.our-work ul li {
+   padding: 0.5rem 1rem;
+   cursor: pointer;
+   transition: .4s;
+   border-radius: 6px;
+}
+
+.our-work ul li:not(.active):hover {
+   background-color: var(--green-color);
+}
+
+.our-work .box {
+   padding: 5px;
+   overflow: hidden;
+   position: relative;
+}
+
+.our-work .box::before {
+   content: attr(data-work);
+   position: absolute;
+   background-color: #33d1cc5c;
+   width: calc(100% - 10px);
+   height: calc(100% - 10px);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: bold;
+   color: white;
+   transition: 0.4s;
+   font-size: 1.2rem;
+   transform: translateY(calc(100% - -5px));
+}
+
+.our-work .box:hover::before {
+   transform: translateY(0);
 }
