@@ -3,11 +3,11 @@
     <div class="siginin-signup">
 
         <div class="form-container ">
-            
+
             <form class="sign-in-form ft" #registerForm="ngForm" (ngSubmit)="onSubmit()" novalidate>
                 <h2 class="title">Sign in</h2>
 
-                <div class="input-field form-floating mb-3 rounded-4">
+                <div class="input-field form-floating mb-3 ">
                     <input type="email" autofocus [(ngModel)]="userModel.email" name="email" #email="ngModel"
                         type="email" class="form-control " id="floatingInput" aria-describedby="emailHelp"
                         pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" required
@@ -31,7 +31,7 @@
                         <i class="fab fa-facebook"></i>
                     </a>
                     <a href="#" class="social-icon">
-                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-x"></i>
                     </a>
                     <a href="#" class="social-icon">
                         <i class="fab fa-google"></i>
@@ -50,9 +50,9 @@
             <form action="" class="sign-up-form fb" [formGroup]="regsetForm" novalidate>
                 <h2 class="title">Sign up</h2>
 
-                <div class="input-field form-floating mb-3 rounded-4">
+                <div class="input-field form-floating mb-3 ">
                     <!-- icon -->
-                    <input pattern="[a-zA-Z]*"
+                    <input  pattern="[a-zA-Z]*"
                         [class.is-invalid]="regsetForm.get('userName')?.touched && regsetForm.get('userName')?.invalid"
                         formControlName="userName" type="text" class="form-control" aria-label="Name">
 
@@ -102,7 +102,7 @@
                         <i class="fab fa-facebook"></i>
                     </a>
                     <a href="#" class="social-icon">
-                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-x"></i>
                     </a>
                     <a href="#" class="social-icon">
                         <i class="fab fa-google"></i>
@@ -122,9 +122,11 @@
 
             <div class="content">
                 <h3>Hello, Friend 👋</h3>
-                <p>Lorem ipsum liquid accusantium. Fugiat ut provident nisi id, repudiandae aperiam dolorem amet
-                    accusamus consequuntur debitis error deleniti ullam suscipit et vitae cum!</p>
+                <p class="word">We're thrilled to have you back to explore the unique treasures of Egyptian handmade crafts. Here, you'll find works that blend heritage, art, and creativity, with every piece telling the story of its maker. Dive in now, discover new creations, and support the local artisans who keep this rich tradition alive.</p>
+                <div>
+                  <h6 style="display: inline; margin-right: 10px;">I already have an account </h6>
                 <button class="btn" id="sign-in-btn">Sign in</button>
+                </div>
             </div>
             <!-- img -->
         </div>
@@ -132,10 +134,12 @@
 
             <div class="content">
                 <h3>Happe To See You Again ✨ </h3>
-                <p>Lorem ipsum epudiandae aperiam dolorem amet accusamus consequuntur debitis error deleniti ullam
-                    suscipit et vitae cum! Lorem, ipsum dolor sisse amet illo totam mollitia aspernatur </p>
+                <p class="word">
+                  Welcome back! Discover the beauty of Egyptian handmade crafts and support local artisans.
+
+                   </p>
                 <div>
-                    <h6 style="display: inline; margin-right: 10px;">i am do not have a account </h6>
+                    <h6 style="display: inline; margin-right: 10px;">I don't have an account</h6>
                     <button class="btn" id="sign-up-btn">Sign up</button>
                 </div>
             </div>
