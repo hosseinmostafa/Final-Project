@@ -1,20 +1,17 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
 <nav class="navbar navbar-expand-lg sticky-top">
   <div class="container-fluid">
-<<<<<<< HEAD
-=======
+
     <!-- Logo aligned to the left -->
->>>>>>> a781a6b8e938025e2f1ad79b3d9e764d99fe5e3c
     <a class="navbar-brand" href="/">
       <img src="./assests/logo-no-background.svg" alt="Logo" class="logo">
     </a>
 
-<<<<<<< HEAD
-    <button class="navbar-toggler h-75" type="button" data-bs-toggle="collapse" data-bs-target="#main"
-=======
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main"
->>>>>>> a781a6b8e938025e2f1ad79b3d9e764d99fe5e3c
-      aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa-solid fa-bars"></i>
     </button>
 
     <div class="collapse navbar-collapse fw-bold" id="main">
@@ -28,30 +25,17 @@
         <li class="nav-item">
           <a class="nav-link  p-2 p-lg-3" routerLink="/">Cart</a>
         </li>
-        
+
       </ul>
-<<<<<<< HEAD
       <a routerLink="/sgin-in-sign-up" class="btn btn-outline-secondary ms-2 icont">
         <i class="fas fa-user"></i>
       </a>
-=======
-
-  
-
-      <!-- User icon -->
-      <a routerLink="/sgin-in-sign-up" class="btn btn-outline-secondary ms-2 icont">
-        <i class="fas fa-user"></i>
+      <a class="btn btn-outline-secondary ms-2 icont" (mouseover)="showLoginText()" (mouseout)="hideLoginText()"
+        routerLink="/">
+        <i class="fa-solid fa-arrow-right-to-bracket login-icon" [style.opacity]="loginIconOpacity"></i>
+        <span class="ms-2 login-text" [style.display]="loginTextVisible ? 'inline' : 'none'">Payment</span>
       </a>
-       <!-- Login button -->
->>>>>>> a781a6b8e938025e2f1ad79b3d9e764d99fe5e3c
-       <a class="btn btn-outline-secondary ms-2 icont"
-       (mouseover)="showLoginText()"
-       (mouseout)="hideLoginText()"
-       routerLink="/">
-       <i class="fa-solid fa-arrow-right-to-bracket login-icon" [style.opacity]="loginIconOpacity"></i>
-       <span class="ms-2 login-text" [style.display]="loginTextVisible ? 'inline' : 'none'">Payment</span>
-   </a>
-   
+
     </div>
   </div>
 </nav>

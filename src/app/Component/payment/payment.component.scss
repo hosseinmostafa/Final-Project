@@ -140,7 +140,6 @@ body {
 }
 
 .payment-plan-change {
-<<<<<<< HEAD
     color: var(--white);
     cursor: pointer;
     text-decoration: none;
@@ -157,16 +156,6 @@ body {
 
 .payment-plan-change:hover {
     background-color: var(--indigo-600);
-=======
-    color: var(--blue-500);
-    font-size: 12px;
-    font-weight: 600;
-    text-underline-offset: 2px;
-}
-
-.payment-plan-change:hover {
-    color: var(--blue-600);
->>>>>>> a781a6b8e938025e2f1ad79b3d9e764d99fe5e3c
 }
 
 .payment-summary-item {
@@ -230,11 +219,7 @@ body {
 
 .payment-summary-total .payment-summary-price {
     font-size: 16px;
-<<<<<<< HEAD
     color: rgba(59, 59, 226, 0.808);
-=======
-    color: var(--indigo-500);
->>>>>>> a781a6b8e938025e2f1ad79b3d9e764d99fe5e3c
     font-weight: 600;
 }
 
@@ -246,11 +231,7 @@ body {
     padding: 24px;
     background-color: var(--white);
     border-radius: 12px;
-<<<<<<< HEAD
     box-shadow: 0 0 5px rgb(0 0 0 / 50%);
-=======
-    box-shadow: 0 4px 24px rgba(0, 0, 0, .05);
->>>>>>> a781a6b8e938025e2f1ad79b3d9e764d99fe5e3c
 }
 
 .payment-title {
@@ -264,11 +245,7 @@ body {
     display: flex;
     align-items: center;
     overflow-x: auto;
-<<<<<<< HEAD
     padding: 6px 7px;
-=======
-    padding: 6px 0;
->>>>>>> a781a6b8e938025e2f1ad79b3d9e764d99fe5e3c
     margin-bottom: 12px;
     width: 100%;
 }
@@ -278,11 +255,7 @@ body {
 }
 
 .payment-method-item {
-<<<<<<< HEAD
     width: 85px;
-=======
-    width: 80px;
->>>>>>> a781a6b8e938025e2f1ad79b3d9e764d99fe5e3c
     height: 80px;
     padding: 8px;
     border: 1px solid var(--gray-200);
@@ -291,7 +264,6 @@ body {
     cursor: pointer;
     position: relative;
     flex-shrink: 0;
-<<<<<<< HEAD
     transition: .5s;    
 }
 
@@ -300,10 +272,10 @@ body {
 }
 
 
-=======
-}
 
->>>>>>> a781a6b8e938025e2f1ad79b3d9e764d99fe5e3c
+
+
+
 input:checked+.payment-method-item {
     border-color: var(--indigo-500);
 }
@@ -350,11 +322,7 @@ input:checked+.payment-method-item::before {
     left: 16px;
     color: var(--gray-400);
     pointer-events: none;
-<<<<<<< HEAD
     transition: all .3s ease-in-out;
-=======
-    transition: all .1s ease-in-out;
->>>>>>> a781a6b8e938025e2f1ad79b3d9e764d99fe5e3c
 }
 
 .payment-form-control:focus {
