@@ -1,13 +1,17 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
 <nav class="navbar navbar-expand-lg sticky-top">
   <div class="container-fluid">
+
     <!-- Logo aligned to the left -->
     <a class="navbar-brand" href="/">
       <img src="./assests/logo-no-background.svg" alt="Logo" class="logo">
     </a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main"
-      aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fa-solid fa-bars"></i>
     </button>
 
     <div class="collapse navbar-collapse fw-bold" id="main">
@@ -23,6 +27,7 @@
         </li>
 
       </ul>
+<<<<<<< HEAD
 
 
 
@@ -38,6 +43,16 @@
        <i class="fa-solid fa-arrow-right-to-bracket login-icon" [style.opacity]="loginIconOpacity"></i>
        <span class="ms-2 login-text" [style.display]="loginTextVisible ? 'inline' : 'none'">Payment</span>
    </a>
+=======
+      <a routerLink="/sgin-in-sign-up" class="btn btn-outline-secondary ms-2 icont">
+        <i class="fas fa-user"></i>
+      </a>
+      <a class="btn btn-outline-secondary ms-2 icont" (mouseover)="showLoginText()" (mouseout)="hideLoginText()"
+        routerLink="/">
+        <i class="fa-solid fa-arrow-right-to-bracket login-icon" [style.opacity]="loginIconOpacity"></i>
+        <span class="ms-2 login-text" [style.display]="loginTextVisible ? 'inline' : 'none'">Payment</span>
+      </a>
+>>>>>>> 7bb33ac1aa4a82aa62f523179dea4c6080683b43
 
     </div>
   </div>

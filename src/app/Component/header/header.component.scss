@@ -1,16 +1,18 @@
 .navbar {
-    height: 70px !important;
-    padding: 0.5rem 1rem;
+    // height: 70px !important;
+    
+    padding: 0.5rem 2rem;
     background: var(--color-gradient);
     box-shadow: 0 0 30px rgb(0 0 0 / 50%);
 
 }
 
-
 .logo {
     height: 30px;
     width: auto;
 }
+
+
 
 .nav-link {
     color: #66483b !important;
@@ -19,6 +21,22 @@
 .nav-link:hover {
     color: white !important;
     // color: #66483b !important;
+}
+
+.nav-link {
+    color: white;
+}
+
+.img-logo-navbar {
+    border-radius: 50%;
+    width: 6vh;
+    height: 6vh;
+}
+
+.fa-solid.fa-bars {
+    color: black;
+    font-size: 25px;
+    // background-color: white;
 }
 
 .icont{
