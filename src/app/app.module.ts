@@ -17,6 +17,7 @@ import { HeaderComponent } from './Component/header/header.component';
 import { FooterComponent } from './Component/footer/footer.component';
 import { NotFondComponent } from './Component/notFond/not-fond/not-fond.component';
 import { PaymentComponent } from './Component/payment/payment.component';
+import { UsersComponent } from './Component/users/users.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { PaymentComponent } from './Component/payment/payment.component';
     FooterComponent,
     NotFondComponent,
     PaymentComponent,
+    UsersComponent,
   ],
   imports: [
     BrowserModule,
