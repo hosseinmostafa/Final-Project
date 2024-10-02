@@ -1,0 +1,71 @@
+.section {
+                    background-image: url("https://img.freepik.com/premium-photo/gold-glitters-are-symbol-new-year_954894-180839.jpg");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    height: 100%;
+                    backdrop-filter: blur(10px);
+                    width: 100%;
+                    margin: 0 auto; 
+                    padding: 20px 15px; 
+                  }
+                  
+                  .section1 {
+                    width: 80%; 
+                    margin: 0 auto; 
+                    margin-top: 30px;
+                    margin-bottom: 100px;
+                    background-color: rgba(210, 208, 170, 0.5);
+                    padding: 20px;
+                    border-radius: 10px;
+                    height: 100%;
+                  }
+                  
+                  .carousel-container {
+                    display: flex;
+                    flex-direction: column; 
+                    align-items: flex-start; 
+                    width: 100%; 
+                  }
+                  
+                  
+                  .filter-form {
+                    margin: 0 auto;
+                  }
+                  
+                
+                  .carousel {
+                    width: 100%;
+                    margin-bottom: 30px;
+                  }
+                  
+                  .card {
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    border-radius: 0 0 10px 10px;
+                    color: rgb(255, 255, 255);
+                    background-color: rgba(113, 113, 112, 0.5);
+                    height: 100%; 
+                  }
+                  
+                  .product-card-body {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center; 
+                    flex: 1;
+                    height: 150px; 
+                  }
+                  
+                  img {
+                    width: 100%;
+                    height: 500px; 
+                    object-fit: cover;
+                  }
+                  
+                  
+                  .btn {
+                    background-color: #D4A95A;
+                    color: black;
+                    text-align: center !important;
+                  }
+                  
