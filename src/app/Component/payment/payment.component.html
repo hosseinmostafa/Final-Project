@@ -63,8 +63,8 @@
 
                         <div class="payment-form-group">
                             <label for="email" class="form-label">Email Address</label>
-                            <input [(ngModel)]="userModel.email" name="email" #email="ngModel" type="email"
-                                class="form-control  payment-form-control" id="exampleInputEmail1"
+                            <input [(ngModel)]="userModel.email" placeholder="example@example.ex" name="email"
+                                #email="ngModel" type="email" class="form-control p-2" id="exampleInputEmail1"
                                 aria-describedby="emailHelp" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$"
                                 required [class.is-invalid]="email.invalid && email.touched">
                             <small *ngIf="email.invalid && email.touched" class="text-danger">Email is
@@ -72,12 +72,22 @@
                         </div>
 
                         <div class="payment-form-group">
-                            <label for="address" class="form-label">Address</label>
-                            <input type="text" placeholder=" " class="payment-form-control" id="Address">
-                        </div>
-                        <div class="payment-form-group">
                             <label for="city" class="form-label">City</label>
-                            <input type="text" placeholder=" " class="payment-form-control" id="City">
+                            <!-- <input type="text" class="form-control p-2" id="exampleInputCity1" required aria-describedby="CityHelp" [(ngModel)]="userModel.City" id="exampleInputCity" #City="ngModel" [class.is-invalid]="City.invalid && City.touched"> -->
+                            <input [(ngModel)]="userModel.City"  name="City"
+                                #City="ngModel" type="text" class="form-control p-2" id="exampleInputCity1"
+                                aria-describedby="CityHelp" required [class.is-invalid]="City.invalid && City.touched">
+                            <small *ngIf="City.invalid && City.touched" class="text-danger">City is
+                                required</small>
+                            </div>
+                            <div class="payment-form-group">
+                                <label for="address" class="form-label">Address</label>
+                                <!-- <input type="text" class="form-control p-2" id="Address"> -->
+                                <input [(ngModel)]="userModel.Address" name="Address"
+                                #Address="ngModel" type="text" class="form-control p-2" id="exampleInputAddress1"
+                                aria-describedby="AddressHelp" required [class.is-invalid]="Address.invalid && Address.touched">
+                                <small *ngIf="Address.invalid && Address.touched" class="text-danger">Address is
+                                    required</small>
                         </div>
                         <!-- ------------------------------------ -->
 
@@ -86,8 +96,8 @@
                         <div class="payment-form-group">
                             <label for="card-number" class="form-label">Card Number</label>
                             <input placeholder="1111-2222-3333-4444" [(ngModel)]="userModel.cardNumber"
-                                name="cardNumber" #cardNumber="ngModel" type="number"
-                                class="form-control payment-form-control" id="exampleInputcardNumber" required
+                                name="cardNumber" #cardNumber="ngModel" type="number" class="form-control p-2"
+                                id="exampleInputcardNumber" required
                                 [class.is-invalid]="cardNumber.invalid && cardNumber.touched" pattern="^\d{16}$">
 
 
@@ -102,14 +112,13 @@
                         <div class="payment-form-group-flex">
                             <div class="payment-form-group">
                                 <label for="expiry-date" class="form-label">Expiry Date</label>
-                                <input type="date" placeholder=" " class="payment-form-control" id="expiry-date">
+                                <input type="date" placeholder=" " class="form-control p-2" id="expiry-date">
                             </div>
                             <div class="payment-form-group">
                                 <label for="cvv" class="">CVV</label>
-                                <input type="text" placeholder=" " class="payment-form-control" id="cvv"
-                                    [(ngModel)]="userModel.CVV" name="CVV" #CVV="ngModel" type="number"
-                                    class="form-control payment-form-control" id="exampleInputCVV" required
-                                    [class.is-invalid]="CVV.invalid && CVV.touched" pattern="^\d{3}$" >
+                                <input placeholder="123" class="form-control p-2" id="cvv" [(ngModel)]="userModel.CVV"
+                                    name="CVV" #CVV="ngModel" type="number" id="exampleInputCVV" required
+                                    [class.is-invalid]="CVV.invalid && CVV.touched" pattern="^\d{3}$">
 
 
                                 <div *ngIf="CVV.errors && CVV.touched">

@@ -9,7 +9,7 @@ import { UserService } from '../../Services/user.service';
 })
 export class PaymentComponent {
 
-  userModel: USERModul = new USERModul('', '', '', ''); // added type annotationhyy
+  userModel: USERModul = new USERModul('', '', '', '', ''); // added type annotationhyy
 
   constructor(private userService: UserService) {}
 
