@@ -23,7 +23,7 @@
     </button>
 
     <div class="collapse navbar-collapse fw-bold" id="main">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      <!-- <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link p-2 p-lg-3" routerLink="/home">Home</a>
         </li>
@@ -37,6 +37,25 @@
         </li>
         <li class="nav-item">
           <a class="nav-link p-2 p-lg-3" routerLink="/">Cart</a>
+        </li>
+      </ul> -->
+      <ul class="navbar-nav nav-pills nav-fill ms-auto  mb-lg-0 gap-3 small " id="pillNav2" role="tablist"
+        style="--bs-nav-link-color: var(--bs-white);  --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+        <li class="nav-item" routerLink="/home" role="presentation">
+          <button class="nav-link active rounded-3 p-2 p-lg-3"  id="home-tab2" data-bs-toggle="tab" type="button" role="tab"
+            aria-selected="true">Home</button>
+        </li>
+        <li class="nav-item" routerLink="/products" role="presentation">
+          <button class="nav-link rounded-3 p-2 p-lg-3" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab"
+            aria-selected="false" >Products</button>
+        </li>
+        <li class="nav-item" routerLink="/add-prouduct" role="presentation">
+          <button class="nav-link rounded-3 p-2 p-lg-3" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab"
+            aria-selected="false">Add Items</button>
+        </li>
+        <li class="nav-item" routerLink="/cart" role="presentation">
+          <button class="nav-link rounded-3 p-2 p-lg-3" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab"
+            aria-selected="false">Cart</button>
         </li>
       </ul>
 

@@ -10,13 +10,13 @@ import { AddProductComponent } from './Component/add-product/add-product.compone
 import { UsersComponent } from './Component/users/users.component';
 
 const routes: Routes = [
-  {path: "", component : HomeComponent},
-  {path: "home", component : HomeComponent},
-  {path: "sgin-in-sign-up", component : SginInSignUpComponent},
-  {path: "payment", component : PaymentComponent},
-   {path: "add-prouduct", component : AddProductComponent},
-  {path: "**", component : NotFondComponent},
-  {path: "users", component : UsersComponent}
+  { path: "", component: HomeComponent },
+  { path: "home", component: HomeComponent },
+  { path: "sgin-in-sign-up", component: SginInSignUpComponent },
+  { path: "payment", component: PaymentComponent },
+  { path: "add-prouduct", component: AddProductComponent },
+  { path: "users", component: UsersComponent },
+  { path: "**", component: NotFondComponent },
 ];
 
 @NgModule({
