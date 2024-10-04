@@ -1,24 +1,14 @@
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
 
-<nav class="navbar navbar-expand-lg sticky-top">
+<nav class="navbar navbar-expand-lg sticky-top" *ngIf="showNavbar">
   <div class="container-fluid">
     <!-- Logo aligned to the left -->
     <a class="navbar-brand" href="/">
       <img src="./assests/logo-no-background.svg" alt="Logo" class="logo" />
     </a>
 
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#main"
-      aria-controls="main"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main"
+      aria-expanded="false" aria-label="Toggle navigation">
       <i class="fa-solid fa-bars"></i>
     </button>
 
@@ -42,12 +32,12 @@
       <ul class="navbar-nav nav-pills nav-fill ms-auto  mb-lg-0 gap-3 small " id="pillNav2" role="tablist"
         style="--bs-nav-link-color: var(--bs-white);  --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
         <li class="nav-item" routerLink="/home" role="presentation">
-          <button class="nav-link active rounded-3 p-2 p-lg-3"  id="home-tab2" data-bs-toggle="tab" type="button" role="tab"
-            aria-selected="true">Home</button>
+          <button class="nav-link active rounded-3 p-2 p-lg-3" id="home-tab2" data-bs-toggle="tab" type="button"
+            role="tab" aria-selected="true">Home</button>
         </li>
         <li class="nav-item" routerLink="/products" role="presentation">
           <button class="nav-link rounded-3 p-2 p-lg-3" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab"
-            aria-selected="false" >Products</button>
+            aria-selected="false">Products</button>
         </li>
         <li class="nav-item" routerLink="/add-prouduct" role="presentation">
           <button class="nav-link rounded-3 p-2 p-lg-3" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab"
@@ -60,27 +50,13 @@
       </ul>
 
 
-      <a
-        routerLink="/users"
-        class="btn btn-outline-secondary ms-2 icont"
-      >
+      <a routerLink="/users" class="btn btn-outline-secondary ms-2 icont">
         <i class="fas fa-user"></i>
       </a>
-      <a
-        class="btn btn-outline-secondary ms-2 icont"
-        (mouseover)="showLoginText()"
-        (mouseout)="hideLoginText()"
-        routerLink="/sgin-in-sign-up"
-      >
-        <i
-          class="fa-solid fa-arrow-right-to-bracket login-icon"
-          [style.opacity]="loginIconOpacity"
-        ></i>
-        <span
-          class="ms-2 login-text"
-          [style.display]="loginTextVisible ? 'inline' : 'none'"
-          >Login</span
-        >
+      <a class="btn btn-outline-secondary ms-2 icont" (mouseover)="showLoginText()" (mouseout)="hideLoginText()"
+        routerLink="/sgin-in-sign-up">
+        <i class="fa-solid fa-arrow-right-to-bracket login-icon" [style.opacity]="loginIconOpacity"></i>
+        <span class="ms-2 login-text" [style.display]="loginTextVisible ? 'inline' : 'none'">Login</span>
       </a>
     </div>
   </div>

@@ -18,8 +18,9 @@
 
                 <div class="input-field form-floating">
                     <input [(ngModel)]="userModel.password" autofocus name="password" #password="ngModel" ngModel
-                        type="password" class="form-control" id="floatingPassword" required
+                        type="password" class="form-control" id="password" required
                         [class.is-invalid]="password.invalid && password.touched">
+                    <!-- <button id="btn sign-in-btn"><i class="fa-solid fa-solid fa-eye-slash fa-eye icon"></i></button> -->
                     <label for="floatingPassword">Password</label>
                 </div>
                 <small *ngIf="password.invalid && password.touched" class="text-danger">Password is required</small>
@@ -49,7 +50,7 @@
 
                 <div class="input-field form-floating mb-3 ">
                     <!-- icon -->
-                    <input  pattern="[a-zA-Z]*"
+                    <input pattern="[a-zA-Z]*"
                         [class.is-invalid]="regsetForm.get('userName')?.touched && regsetForm.get('userName')?.invalid"
                         formControlName="userName" type="text" class="form-control" aria-label="Name">
 
@@ -68,16 +69,19 @@
 
 
                 <div class="input-field form-floating">
-                    <input type="email" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" aria-describedby="emailHelp"
+                    <input type="email" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$"
+                        aria-describedby="emailHelp"
                         [class.is-invalid]="regsetForm.get('Email')?.touched && regsetForm.get('Email')?.invalid"
-                        formControlName="Email" type="text" class="form-control" aria-label="Email" id="validationTextarea" required>
-                        <label for="validationTextarea">Email address</label>
+                        formControlName="Email" type="text" class="form-control" aria-label="Email"
+                        id="validationTextarea" required>
+                    <label for="validationTextarea">Email address</label>
                 </div>
                 <!-- <small *ngIf="email.invalid && email.touched" class="text-danger">Email is required</small> -->
 
                 <div class="input-field form-floating">
                     <!-- icon -->
-                    <input formControlName="password" type="password" class="form-control" id="exampleInputPassword1">
+                    <input formControlName="password" type="password" class="form-control" id="password2">
+                    <!-- <button id="btn2 sign-in-btn2"><i class="fa-solid fa-solid fa-eye-slash fa-eye icon"></i></button> -->
                     <label for="floatingPassword">Password</label>
                 </div>
                 <small *ngIf="regsetForm.get('password')?.touched && regsetForm.get('password')?.invalid"
@@ -88,6 +92,7 @@
                 <div class="input-field form-floating">
                     <input formControlName="confirmPassword" type="password" class="form-control"
                         [class.is-invalid]="regsetForm.errors?.['misMatch']" id="exampleInputPassword1">
+
 
                     <label for="floatingPassword">Confirm Password</label>
                 </div>
@@ -118,27 +123,34 @@
         <div class="panel left-panel">
 
             <div class="content">
+
                 <h3>Hello, Friend 👋</h3>
-                <p class="word">We're thrilled to have you back to explore the unique treasures of Egyptian handmade crafts. Here, you'll find works that blend heritage, art, and creativity, with every piece telling the story of its maker. Dive in now, discover new creations, and support the local artisans who keep this rich tradition alive.</p>
+                <p class="word">We're thrilled to have you back to explore the unique treasures of Egyptian handmade
+                    crafts. Here, you'll find works that blend heritage, art, and creativity, with every piece telling
+                    the story of its maker. Dive in now, discover new creations, and support the local artisans who keep
+                    this rich tradition alive.</p>
                 <div>
-                  <h6 style="display: inline; margin-right: 10px;">I already have an account </h6>
-                <button class="btn" id="sign-in-btn">Sign in</button>
+                    <h6 style="display: inline; margin-right: 10px;">I already have an account </h6>
+                    <button class="btn" id="sign-in-btn">Sign in</button>
                 </div>
+                <a routerLink="/" class="icon-home"><i class="fa-solid fa-house"></i></a>
             </div>
             <!-- img -->
         </div>
         <div class="panel right-panel">
 
             <div class="content">
+
                 <h3>Happe To See You Again ✨ </h3>
                 <p class="word">
-                  Welcome back! Discover the beauty of Egyptian handmade crafts and support local artisans.
+                    Welcome back! Discover the beauty of Egyptian handmade crafts and support local artisans.
 
-                   </p>
+                </p>
                 <div>
                     <h6 style="display: inline; margin-right: 10px;">I don't have an account</h6>
                     <button class="btn" id="sign-up-btn">Sign up</button>
                 </div>
+                <a routerLink="/" class="icon-home"><i class="fa-solid fa-house"></i></a>
             </div>
             <!-- img -->
         </div>
