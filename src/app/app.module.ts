@@ -18,6 +18,8 @@ import { FooterComponent } from './Component/footer/footer.component';
 import { NotFondComponent } from './Component/notFond/not-fond/not-fond.component';
 import { PaymentComponent } from './Component/payment/payment.component';
 import { UsersComponent } from './Component/users/users.component';
+import { AddProductComponent } from './Component/add-product/add-product.component';
+import { ProductsComponent } from './Component/products/products.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { UsersComponent } from './Component/users/users.component';
     NotFondComponent,
     PaymentComponent,
     UsersComponent,
+    AddProductComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
