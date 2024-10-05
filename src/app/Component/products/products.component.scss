@@ -1,3 +1,5 @@
+/* Global Styles */
+
 .section {
   background-image: url("https://img.freepik.com/premium-photo/gold-glitters-are-symbol-new-year_954894-180839.jpg");
   background-size: cover;
@@ -9,16 +11,19 @@
   padding: 20px 15px;
 }
 
+/* Section 1 Styles */
+
 .section1 {
   width: 80%;
   margin: 0 auto;
   margin-top: 30px;
   margin-bottom: 100px;
-  // background-color: rgba(210, 208, 170, 0.5);
   padding: 20px;
   border-radius: 10px;
   height: 100%;
 }
+
+/* Carousel Styles */
 
 .carousel-container {
   display: flex;
@@ -27,16 +32,12 @@
   width: 100%;
 }
 
-
-.filter-form {
-  margin: 0 auto;
-}
-
-
 .carousel {
   width: 100%;
   margin-bottom: 30px;
 }
+
+/* Card Styles */
 
 .card {
   text-align: center;
@@ -47,8 +48,6 @@
   background-color: rgba(113, 113, 112, 0.5);
   height: 100%;
   box-shadow: 0 0 15px black;
-
-
 }
 
 .product-card-body {
@@ -65,9 +64,50 @@ img {
   object-fit: cover;
 }
 
+/* Button Styles */
 
 .btn {
   background-color: #D4A95A;
   color: black;
   text-align: center !important;
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .section1 {
+    width: 90%;
+  }
+
+  .carousel-container {
+    flex-direction: row;
+  }
+
+  .carousel {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section1 {
+    width: 100%;
+  }
+
+  .carousel-container {
+    flex-direction: column;
+  }
+
+  .carousel {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
