@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { catchError, Observable, throwError } from 'rxjs';
+import { catchError, map, Observable, throwError } from 'rxjs';
 import { Iproduct } from '../Component/interfaces/Iproduct';
 
 @Injectable({
@@ -17,4 +17,21 @@ export class ProductService {
       })
     );
   }
+  getOneProduct(id: string): Observable<Iproduct | undefined> {
+
+
+    return this.getProducts().pipe(
+  map((products : Iproduct[]) =>{
+     const oneProduct = products.find((product) => product.id === id)
+     if(!oneProduct){
+       throw new Error('product not found')
+      }
+     return oneProduct
+  }),
+  catchError((err) => {
+    
+    return throwError(() => err.message || 'product not found');
+  })
+)
+}
 }

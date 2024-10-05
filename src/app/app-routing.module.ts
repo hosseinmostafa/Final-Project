@@ -9,6 +9,7 @@ import { PaymentComponent } from './Component/payment/payment.component';
 import { AddProductComponent } from './Component/add-product/add-product.component';
 import { UsersComponent } from './Component/users/users.component';
 import { ProductsComponent } from './Component/products/products.component';
+import { ProductDetailsComponent } from './Component/product-details/product-details.component';
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: "sgin-in-sign-up", component: SginInSignUpComponent },
   { path: "payment", component: PaymentComponent },
   { path: "add-prouduct", component: AddProductComponent },
+  {path:"product/:id",component:ProductDetailsComponent},
   { path: "users", component: UsersComponent },
   { path: "products", component: ProductsComponent },
   { path: "**", component: NotFondComponent },

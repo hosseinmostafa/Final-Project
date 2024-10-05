@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ProductService } from '../../Services/product.service';
 import { Iproduct } from '../interfaces/Iproduct';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-products',
@@ -17,7 +18,7 @@ export class ProductsComponent implements OnInit {
   filterPrice: number | null = null;
   filterDate: string = ''; // To hold the selected date
 
-  constructor(private productService: ProductService) {}
+  constructor(private productService: ProductService,private router:Router) {}
 
   ngOnInit(): void {
     this.productService.getProducts().subscribe({
@@ -30,7 +31,9 @@ export class ProductsComponent implements OnInit {
       },
     });
   }
-
+goToProductDetails(id:string){
+  this.router.navigate(['/product',id])
+}
   // Toggle Filter Visibility
   toggleFilter() {
     this.isFilterVisible = !this.isFilterVisible;
