@@ -18,7 +18,7 @@ export class ProductsComponent implements OnInit {
   filterPrice: number | null = null;
   filterDate: string = ''; // To hold the selected date
 
-  constructor(private productService: ProductService,private router:Router) {}
+  constructor(private productService: ProductService, private router: Router) { }
 
   ngOnInit(): void {
     this.productService.getProducts().subscribe({
@@ -31,9 +31,9 @@ export class ProductsComponent implements OnInit {
       },
     });
   }
-goToProductDetails(id:string){
-  this.router.navigate(['/product',id])
-}
+  goToProductDetails(id: string) {
+    this.router.navigate(['/product', id])
+  }
   // Toggle Filter Visibility
   toggleFilter() {
     this.isFilterVisible = !this.isFilterVisible;
@@ -41,7 +41,9 @@ goToProductDetails(id:string){
 
   // Search Functionality
   searchProducts() {
-    this.applyFilters();
+    this.filteredProducts = this.products.filter((product) =>
+      product.name.toLowerCase().includes(this.searchTerm.toLowerCase())
+    );
   }
 
   // Apply Filters based on User Input
