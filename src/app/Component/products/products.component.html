@@ -84,4 +84,9 @@
       </div>
     </div>
   </div>
+  <div *ngIf="errMsg" class="col-md-6 offset-md-3">
+    <div class="text-danger bg-light text-center">
+{{errMsg}}
+    </div>
+  </div>
 </div>

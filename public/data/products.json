@@ -1,0 +1,184 @@
+[
+                    {
+                      "id": "1",
+                      "name": "Terracotta vase with indigenous pattern",
+                      "image": "https://img.freepik.com/free-photo/terracotta-vase-with-indigenous-pattern_23-2151585706.jpg",
+                      "price": 200,
+                      "description": "Handcrafted terracotta vase featuring intricate indigenous patterns, perfect for adding a cultural touch to your home decor.",
+                      "material": "Terracotta",
+                      "dimensions": "30cm x 15cm",
+                      "date": "2024-09-01"
+                                        },
+                    {
+                      "id": "2",
+                      "name": "Terracotta vase with indigenous pattern",
+                      "price": 50,
+                      "image": "https://img.freepik.com/free-photo/terracotta-vase-with-indigenous-pattern_23-2151585700.jpg",
+                      "description": "A smaller version of the indigenous patterned vase, ideal for displaying dried flowers or as a standalone decorative piece.",
+                      "material": "Terracotta",
+                      "dimensions": "20cm x 10cm",
+                      "date": "2024-09-01"
+                    },
+                    {
+                      "id": "3",
+                      "name": "Ancient pottery vessel with retro design",
+                      "price": 70,
+                      "image": "https://img.freepik.com/free-photo/ancient-pottery-vessel-with-retro-design_23-2151538286.jpg",
+                      "description": "Retro pottery vessel reminiscent of ancient times, a perfect piece to give your space an antique vibe.",
+                      "material": "Ceramic",
+                      "dimensions": "25cm x 12cm",
+                      "date": "2024-09-01"
+                    },
+                    {
+                      "id": "4",
+                      "name": "Elegant modern vase design",
+                      "price": 120,
+                      "image": "https://img.freepik.com/free-photo/elegant-modern-vase-design_23-2150529795.jpg",
+                      "description": "A sleek modern vase design that complements minimalist and contemporary interiors with its clean lines.",
+                      "material": "Porcelain",
+                      "dimensions": "35cm x 15cm"
+                      ,"date": "2024-09-01"
+                    },
+                    {
+                      "id": "5",
+                      "name": "Minimal modern vase indoors",
+                      "price": 200,
+                      "image": "https://img.freepik.com/free-photo/minimal-modern-vase-indoors_23-2149681090.jpg",
+                      "description": "A stunning example of minimalism, this modern vase adds a subtle elegance to any room.",
+                      "material": "Glass",
+                      "dimensions": "40cm x 20cm",
+                      "date": "2024-09-01"
+                    },
+                    {
+                      "id": "6",
+                      "name": "Still life with modern vases soft aesthetics",
+                      "price": 150,
+                      "image": "https://img.freepik.com/free-photo/still-life-with-modern-vases-soft-aesthetics_52683-95199.jpg",
+                      "description": "A set of modern vases with soft aesthetics, blending seamlessly into various decor styles.",
+                      "material": "Ceramic",
+                      "dimensions": "Varying sizes",
+                      "date": "2024-09-01"
+                    },
+                    {
+                      "id": "7",
+                      "name": "A sweater with birds on it",
+                      "price": 100,
+                      "image": "https://img.freepik.com/premium-photo/sweater-with-birds-it-sits-table_1221953-54570.jpg",
+                      "description": "Cozy sweater featuring a unique bird pattern, perfect for chilly days.",
+                      "material": "Wool",
+                      "size": "Medium",
+                      "date": "2024-09-01"
+                    },
+                    {
+                      "id": "8",
+                      "name": "A knitted sweater with a flower on it",
+                      "price": 120,
+                      "image": "https://img.freepik.com/premium-photo/knitted-sweater-with-flower-it-sits-table_1221953-54601.jpg",
+                      "description": "Handmade knitted sweater with a delicate flower design, ideal for a casual and cozy look.",
+                      "material": "Cotton",
+                      "size": "Large",
+                      "date": "2024-09-01"
+                    },
+                    {
+                      "id": "9",
+                      "name": "Handmade fabric design close-up",
+                      "price": 90,
+                      "image": "https://img.freepik.com/free-photo/handmade-fabric-design-close-up_23-2148827112.jpg",
+                      "description": "Detailed fabric design showcasing intricate hand-stitching and patterns.",
+                      "material": "Handwoven Fabric",
+                      "dimensions": "50cm x 50cm",
+                      "date": "2024-09-01"
+                    },
+                    {
+                      "id": "10",
+                      "name": "Cozy knitted beige sweater",
+                      "price": 90,
+                      "image": "https://img.freepik.com/premium-psd/cozy-knitted-beige-sweater_53876-209837.jpg",
+                      "description": "A comfortable beige sweater, perfect for cold weather while maintaining a chic, modern look.",
+                      "material": "Cashmere",
+                      "size": "Medium",
+                      "date": "2024-09-01"
+                    },
+                    {
+                      "id": "11",
+                      "name": "A sweater with a sweater on it that has a shirt on it",
+                      "price": 125,
+                      "image": "https://img.freepik.com/premium-psd/sweater-with-sweater-it-that-has-shirt-it_1214022-9863.jpg",
+                      "description": "Unique double-layered sweater with an additional shirt-style design for a creative look.",
+                      "material": "Wool blend",
+                      "size": "Large",
+                      "date": "2024-09-01"
+                    },
+                    {
+                      "id": "12",
+                      "name": "A sweater with a sweater on it that has a pattern",
+                      "price": 130,
+                      "image": "https://img.freepik.com/premium-psd/sweater-with-sweater-it-that-has-pattern_1214022-10150.jpg",
+                      "description": "A modern twist on classic sweaters with a sweater-on-sweater pattern. Stylish and innovative.",
+                      "material": "Cotton blend",
+                      "size": "Medium",
+                      "date": "2024-09-01"
+                    },
+                    {
+                      "id": "13",
+                      "name": "A scarf with a green and brown pattern",
+                      "price": 220,
+                      "image": "https://img.freepik.com/premium-psd/scarf-with-green-brown-pattern-transparent-background_1214022-10278.jpg",
+                      "description": "Luxurious scarf with intricate green and brown patterns, designed for elegance.",
+                      "material": "Silk",
+                      "dimensions": "180cm x 30cm",
+                      "date": "2024-09-01"
+                    },
+                    {
+                      "id": "14",
+                      "name": "A blue sweater",
+                      "price": 300,
+                      "image": "https://img.freepik.com/premium-psd/blue-sweater-with-pattern-white-blue-shirt-transparent-background_1214022-10596.jpg",
+                      "description": "Stylish blue sweater featuring a classic white-and-blue pattern, ideal for casual wear.",
+                      "material": "Wool",
+                      "size": "Large",
+                      "date": "2024-09-01"
+                    },
+                    {
+                      "id": "15",
+                      "name": "A woman's bracelet",
+                      "price": 30,
+                      "image": "https://img.freepik.com/premium-photo/womans-bracelet-is-table-with-other-items_198456-1105.jpg",
+                      "description": "Elegant woman's bracelet with minimalist design, perfect for everyday wear.",
+                      "material": "Sterling Silver",
+                      "size": "Adjustable",
+                      "date": "2024-09-01"
+                    },
+                    {
+                      "id": "16",
+                      "name": "A colorful necklace with flowers and butterflies on it",
+                      "price": 50,
+                      "image": "https://img.freepik.com/premium-photo/colorful-necklace-with-flowers-butterflies-it_198456-502.jpg",
+                      "description": "Handcrafted necklace featuring vibrant flowers and butterflies, bringing nature to life in your accessories.",
+                      "material": "Beads",
+                      "dimensions": "50cm length",
+                      "date": "2024-09-01"
+
+                    },
+                    {
+                      "id": "17",
+                      "name": "A hand holding a colorful friendship bracelet",
+                      "price": 60,
+                      "image": "https://img.freepik.com/premium-photo/hand-holding-colorful-friendship-bracelet-isolated-white-background_860932-3934.jpg",
+                      "description": "Friendship bracelet with vibrant colors, a symbol of lasting friendship and love.",
+                      "material": "Thread",
+                      "size": "One Size Fits All",
+                      "date": "2024-09-01"
+                    },
+                    {
+                      "id": "18",
+                      "name": "A hand holding a colorful friendship bracelet",
+                      "price": 100,
+                      "image": "https://img.freepik.com/premium-photo/hand-holding-colorful-friendship-bracelet-isolated-white-background_860932-3935.jpg",
+                      "description": "A premium version of the colorful friendship bracelet, designed for special occasions.",
+                      "material": "Embroidered Thread",
+                      "size": "One Size Fits All",
+                      "date": "2024-09-01"
+                    }
+                  ]
+                  
