@@ -40,20 +40,20 @@
   },
   {
     "id": "5",
-    "name": "Minimal modern vase indoors",
+    "name": " Minimalist Modern Vase ",
     "price": 200,
     "image": "https://img.freepik.com/free-photo/minimal-modern-vase-indoors_23-2149681090.jpg",
-    "description": "A stunning example of minimalism, this modern vase adds a subtle elegance to any room.",
+    "description": "A modern vase with a simple and elegant design, ideal for adding a touch of modernity and calm to any interior space",
     "material": "Glass",
     "dimensions": "40cm x 20cm",
     "date": "2024-09-01"
   },
   {
     "id": "6",
-    "name": "Still life with modern vases soft ",
+    "name": "Macrame Wall Decoration  ",
     "price": 150,
     "image": "https://img.freepik.com/free-phohttps://img.freepik.com/premium-photo/macrame-decoration-interior_154092-5636.jpg",
-    "description": "A set of modern vases with soft aesthetics, blending seamlessly into various decor styles.",
+    "description": "A handcrafted macrame wall decoration that adds a bohemian and cozy touch to any interior space. This wall-hanging piece features carefully woven threads forming geometric or natural patterns. It’s perfect for decorating living rooms, bedrooms, or even offices, bringing a sense of warmth and natural elegance to the environment.",
     "material": "Ceramic",
     "dimensions": "Varying sizes",
     "date": "2024-09-01"
@@ -70,17 +70,17 @@
   },
   {
     "id": "8",
-    "name": "A knitted sweater with a flower on it",
+    "name": "Knitted Sweater with Flower ",
     "price": 120,
     "image": "https://img.freepik.com/premium-photo/knitted-sweater-with-flower-it-sits-table_1221953-54601.jpg",
-    "description": "Handmade knitted sweater with a delicate flower design, ideal for a casual and cozy look.",
+    "description": "An elegant and warm knitted sweater featuring a beautiful flower design, gracefully placed on a table. This sweater combines comfort and style, making it perfect for chilly days. It can be worn for casual occasions or as part of a comfortable daily outfit, adding a touch of nature and liveliness to your look.",
     "material": "Cotton",
     "size": "Large",
     "date": "2024-09-01"
   },
   {
     "id": "9",
-    "name": "Handmade fabric design close-up",
+    "name": "Handmade fabric design close",
     "price": 90,
     "image": "../imges/img1.jpg",
     "description": "Detailed fabric design showcasing intricate hand-stitching and patterns.",
@@ -90,127 +90,127 @@
   },
   {
     "id": "10",
-    "name": "Cozy knitted beige sweater",
+    "name": "Interior Designer Arranging ",
     "price": 90,
     "image": "https://img.freepik.com/premium-photo/interior-designer-arranging-decorations-home_23-2150334522.jpg",
-    "description": "A comfortable beige sweater, perfect for cold weather while maintaining a chic, modern look.",
-    "material": "Cashmere",
-    "size": "Medium",
+    "description": " An image of an interior designer arranging decorations in a home, showcasing focus and creativity in designing the space. The designer is surrounded by a collection of decorative elements that enhance the room's aesthetic, reflecting a modern and cozy style. This type of design illustrates professionalism and attention to detail in creating a comfortable and appealing environment.",
+    "material": "wood",
+    
     "date": "2024-09-01"
   },
   {
     "id": "11",
-    "name": "A sweater with a sweater on it that",
+    "name": "Boho Macrame Arrangement ",
     "price": 125,
     "image": "https://img.freepik.com/free-photo/boho-macrame-arrangement-indoors_23-2149072893.jpg",
-    "description": "Unique double-layered sweater with an additional shirt-style design for a creative look.",
+    "description": "artistic arrangement of boho macrame indoors. The design features intricate details and natural colors, adding a touch of elegance and comfort to the room, reflecting a cozy and creative lifestyle..",
     "material": "Wool blend",
-    "size": "Large",
+    
     "date": "2024-09-01"
   },
   {
     "id": "12",
-    "name": "A sweater with a sweater on it that",
+    "name": "Clothes Drying Table Against ",
     "price": 130,
     "image": "https://img.freepik.com/premium-photo/clothes-drying-table-against-wall-home_1048944-24789779.jpg",
-    "description": "A modern twist on classic sweaters with a sweater-on-sweater pattern. Stylish and innovative.",
-    "material": "Cotton blend",
-    "size": "Medium",
+    "description": "a clothes drying table positioned against the wall in a home. This table adds a practical and modern touch to the space, providing a comfortable place to dry clothes neatly..",
+    "material": "Wool threads ",
+   
     "date": "2024-09-01"
   },
   {
     "id": "13",
-    "name": "A scarf with a green and brown ",
+    "name": "Autumn Garland Made of Branches  ",
     "price": 220,
     "image": "https://img.freepik.com/premium-photo/autumn-garland-made-branches-dried-orange-slices-fir-branches-hanging-brick-wall_149112-2868.jpg",
-    "description": "Luxurious scarf with intricate green and brown patterns, designed for elegance.",
+    "description": "autumn garland made of branches, dried orange slices, and fir branches, hanging against a brick wall. This garland adds a warm and natural touch to the space, reflecting the beauty of the fall season.",
     "material": "Silk",
     "dimensions": "180cm x 30cm",
     "date": "2024-09-01"
   },
   {
     "id": "14",
-    "name": "A blue sweater",
+    "name": "Christmas Wall Calendar",
     "price": 300,
     "image": "https://img.freepik.com/free-photo/2022-christmas-wall-calendar_23-2149758803.jpg",
-    "description": "Stylish blue sweater featuring a classic white-and-blue pattern, ideal for casual wear.",
+    "description": "a wall calendar adorned with a Christmas design for the year 2022. This calendar captures the festive spirit through vibrant colors and celebratory symbols, making it a perfect addition to any space during the holiday season.",
     "material": "Wool",
-    "size": "Large",
+
     "date": "2024-09-01"
   },
   {
     "id": "15",
-    "name": "A woman's bracelet",
+    "name": " Traditional Macrame",
     "price": 30,
     "image": "https://img.freepik.com/free-photo/traditional-macrame-arrangement-indoors_23-2149072831.jpg",
-    "description": "Elegant woman's bracelet with minimalist design, perfect for everyday wear.",
-    "material": "Sterling Silver",
-    "size": "Adjustable",
+    "description": " traditional arrangement of a macrame piece indoors, reflecting beautiful craftsmanship and elegance. This element adds a warm and natural touch to the room, embodying a cozy and inviting lifestyle..",
+    "material": " Wool threads",
+ 
     "date": "2024-09-01"
   },
   {
     "id": "16",
-    "name": "A colorful necklace with flowers",
+    "name": " Arrangement of Handmade ",
     "price": 50,
     "image": "https://img.freepik.com/free-photo/arrangement-macrame-handmade-object_23-2149064435.jpg",
-    "description": "Handcrafted necklace featuring vibrant flowers and butterflies, bringing nature to life in your accessories.",
+    "description": "artistic arrangement of a handmade macrame object, embodying craftsmanship and unique design. This piece adds a touch of natural elegance to the space, reflecting a modern style and attention to detail.",
     "material": "Beads",
     "dimensions": "50cm length",
     "date": "2024-09-01"
   },
   {
     "id": "17",
-    "name": "A hand holding a colorful friendship",
+    "name": " Ancient Pottery Vessel ",
     "price": 60,
     "image": "https://img.freepik.com/free-photo/ancient-pottery-vessel-with-retro-design_23-2151538286.jpg",
-    "description": "Friendship bracelet with vibrant colors, a symbol of lasting friendship and love.",
-    "material": "Thread",
-    "size": "One Size Fits All",
+    "description": "pottery vessel with a retro design, featuring intricate details and warm colors. This vessel makes a lovely addition to any space, reflecting cultural history and unique aesthetics.",
+    "material": "pride",
+    
     "date": "2024-09-01"
   },
   {
     "id": "18",
-    "name": "A hand holding a colorful friendship",
+    "name": "Flower Paintings Hanging ",
     "price": 100,
     "image": "https://img.freepik.com/premium-photo/painting-flowers-hanging-string-with-picture-flowers-it_1087688-1084.jpg",
-    "description": "A premium version of the colorful friendship bracelet, designed for special occasions.",
-    "material": "Embroidered Thread",
-    "size": "One Size Fits All",
+    "description": " collection of flower paintings hanging on strings, adding an artistic and cheerful touch to the space. This arrangement reflects the beauty of nature and creative design.",
+    "material": "Plastic ",
+   
     "date": "2024-09-01"
   },
   {
     "id": "19",
-    "name": "A hand holding a colorful friendship",
+    "name": "Glass Cubes with Flowers ",
     "price": 400,
     "image": "https://img.freepik.com/premium-photo/three-square-glass-cubes-with-flowers-word-spring-them_1087688-1356.jpg",
-    "description": "A premium version of the colorful friendship bracelet, designed for special occasions.",
-    "material": "Embroidered Thread",
-    "size": "One Size Fits All",
+    "description": "three square glass cubes filled with colorful flowers and the word Spring written in an appealing way. This arrangement adds a touch of nature and beauty to the space, reflecting the spirit of spring and life.",
+    "material": "glass",
+   
     "date": "2024-09-01"
   },
   {
     "id": "20",
-    "name": "A hand holding a colorful friendship",
+    "name": " Close-Up of Hanging Wall ",
     "price": 200,
     "image": "https://img.freepik.com/premium-photo/close-up-decorations-hanging-wall_1048944-10542217.jpg",
-    "description": "A premium version of the colorful friendship bracelet, designed for special occasions.",
-    "material": "Embroidered Thread",
-    "size": "One Size Fits All",
+    "description": " A close-up image of hanging wall decorations, showcasing intricate details and elegant design. These decorations add an artistic and aesthetic touch to any interior space, reflecting a unique style in decor.",
+    "material": "Plastic",
+ 
     "date": "2024-09-01"
   },
   {
     "id": "21",
-    "name": "A hand holding a colorful friendship",
+    "name": " Frames and Flowers on a Shelf",
     "price": 200,
     "image": "https://img.freepik.com/free-photo/frames-flowers-shelf_23-2147755108.jpg",
-    "description": "A premium version of the colorful friendship bracelet, designed for special occasions.",
+    "description": " An image of frames displaying pictures and flowers arranged on a shelf, adding beauty and elegance to the space. The elements are coordinated in an appealing way that reflects a personal touch.",
     "material": "Embroidered Thread",
-    "size": "One Size Fits All",
+
     "date": "2024-09-01"
   },
   {
     "id": "22",
-    "name": "Kinetic Art Zeninspired Wall ",
+    "name": "Kinetic Zen Art - Wall Sculpture ",
     "price": 200,
     "image": "https://img.freepik.com/premium-photo/interactive-kinetic-art-zeninspired-wall-mounted-sculpture_899449-521549.jpg",
     "description": "A premium version of the colorful friendship bracelet, designed for special occasions.",
