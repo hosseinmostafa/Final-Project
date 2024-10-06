@@ -8,8 +8,8 @@ import { FooterService } from '../../Services/footer.service';
   styleUrl: './footer.component.scss'
 })
 export class FooterComponent implements OnDestroy {
-  showFooter : boolean= true;
-  subscription:Subscription;
+  showFooter: boolean = true;
+  subscription: Subscription;
 
   constructor(private footerServes: FooterService) {
     this.subscription = this.footerServes.showFooter.subscribe((value) => {

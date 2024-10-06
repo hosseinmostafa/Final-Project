@@ -1,12 +1,18 @@
 .section {
-    background-image: url("https://img.freepik.com/free-photo/abstract-smooth-orange-background-layout-design-studio-room-web-template-business-report-with-smooth-circle-gradient-color_1258-53467.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    margin: 0 auto;
-    padding: 20px 15px;
+    background-image: url("https://img.freepik.com/premium-photo/macrame-arrangement-with-copy-space_23-2149072871.jpg");
     display: flex;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #eee;
+    // background-blend-mode: darken;
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 20px;
 }
 
 .container {
@@ -16,20 +22,22 @@
     background-color: rgba(113, 113, 112, 0.5);
     padding: 20px;
     box-shadow: 5px 5px 5px rgb(79, 71, 71);
+    border-radius: 20px;
+    
 }
 
 #image-border {
-    border: 5px solid rgb(255, 255, 255);
-    box-shadow: 10px 10px 10px rgb(79, 71, 71);
+    // border: 5px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 13px rgb(79, 71, 71);
     border-radius: 10px;
     padding: 0;
-    height: auto; 
+    height: auto;
     box-sizing: border-box;
 }
 
 img {
     width: 100%;
-    height: 100%; 
+    height: 100%;
     object-fit: cover;
     border-radius: 20px;
 }
@@ -38,10 +46,15 @@ img {
     padding: 10px;
     box-sizing: border-box;
     font-size: 20px;
+    line-height: 1.5;
+    text-align: start;
+    background-image: none;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    color: rgba(0, 0, 0, 0.726);
+    font-weight: bold;
 }
 
 h3 {
@@ -54,42 +67,53 @@ h4 {
     padding-left: 15px;
 }
 
-h5{
+h5 {
     margin-bottom: 50px;
-    padding-left: 15px; 
+    padding-left: 15px;
 }
 
 .btn {
-    background-color: #ffffff;
+    background-color: #f0ce8f;
     color: black;
     border-radius: 50px;
     display: block;
     margin-top: 20px;
+    transition: .5s;
+}
+
+.btn:hover {
+    background-color: white;
 }
 
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     .section {
-        height: auto; /* Let the section adapt to the content */
+        height: auto;
+        /* Let the section adapt to the content */
     }
-    
+
     .container {
-        width: 100%; /* Make the container take full width on smaller screens */
-        margin: 0 auto; /* Center container */
+        width: 100%;
+        /* Make the container take full width on smaller screens */
+        margin: 0 auto;
+        /* Center container */
         padding: 15px;
     }
 
     #details {
         padding-left: 0;
-        text-align: center; /* Center text on smaller screens */
+        text-align: center;
+        /* Center text on smaller screens */
     }
 
     h6 {
-        padding-left: 0; /* Reset padding on smaller screens */
+        padding-left: 0;
+        /* Reset padding on smaller screens */
     }
 
     .btn {
-        width: 100%; /* Full-width button on smaller screens */
+        width: 100%;
+        /* Full-width button on smaller screens */
         margin: 15px 0;
     }
 }
@@ -101,10 +125,26 @@ h5{
     }
 
     h6 {
-        padding-left: 0; /* Remove padding for small screens */
+        padding-left: 0;
+        /* Remove padding for small screens */
     }
 
     .btn {
-        width: 100%; /* Full-width button for very small screens */
+        width: 100%;
+        /* Full-width button for very small screens */
+    }
+}
+
+.icon-home{
+    color: var(--pymant-color);
+    transition: color 0.2s ease;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+
+    &:hover{
+        color: var(--pymant-color-hover);
     }
 }

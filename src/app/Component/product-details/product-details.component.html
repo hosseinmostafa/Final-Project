@@ -1,27 +1,29 @@
 <div class="section">
-                    <div class="container">
-                                        <div class="row">
-                                                            <div class="col-6 offset-3">
-                                                                                <div *ngIf="errMsg" class="text-center bg-light alert alert-danger my-3">
-                                                                                                {{errMsg}}
-                                                                                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 offset-3">
+                <div *ngIf="errMsg" class="text-center bg-light alert alert-danger my-3">
+                    {{errMsg}}
+                </div>
 
-                                                            </div>
-                                                            <div class="col-md-6 " id="image-border">
-                                                                                <img [alt]="oneProduct?.name" [src]="oneProduct?.image">
-                                                            </div>
-                                                            <div class="col-md-6  " id="details">
-                                                                                <h3 class="text-center " id="title">pottery</h3>
-                                                                                <h3 >description:</h3>
-                                                                                <h4>{{oneProduct?.description}}</h4>
-                                                                                <h4>size: {{oneProduct?.dimensions}}</h4>
-                                                                                <h4>material: {{oneProduct?.material}}</h4>
-                                                                                <h4>price: {{oneProduct?.price}}$</h4>
-                                                                                <h6>date of publish : {{oneProduct?.date}}</h6>
-                                                                                <a class="btn mt-auto  ">add to cart</a>
-                                                                                
-                                                            </div>
-                                        </div>
-                    </div>
-                                                                                                    
+            </div>
+            <div class="col-md-6 " id="image-border">
+                <img [alt]="oneProduct?.name" [src]="oneProduct?.image">
+            </div>
+            <div class="col-md-6  fw-bold" id="details">
+                <h3 class="text-center " id="title">pottery</h3>
+                <h3>description:</h3>
+                <h4>{{oneProduct?.description}}</h4>
+                <!-- <h4>size: {{oneProduct?.dimensions}}</h4> -->
+                <h4>material: {{oneProduct?.material}}</h4>
+                <h4>price: {{oneProduct?.price}}$</h4>
+                <h6>date of publish : {{oneProduct?.date}}</h6>
+                <!-- <a routerLink="/" class="icon-home mb-3 mt-2"><i class="fa-solid fa-house"></i></a> -->
+                <a class="btn mt-auto  ">add to cart</a>
+
+            </div>
+            
+        </div>
+    </div>
+
 </div>

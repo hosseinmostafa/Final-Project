@@ -1,3 +1,22 @@
+.all-page {
+    background-image: url("https://img.freepik.com/premium-photo/macrame-arrangement-with-copy-space_23-2149072871.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #eee;
+    // background-blend-mode: darken;
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 20px;
+}
+
+
+
 .form-control,
 .proinfo {
     width: 50%;
@@ -28,11 +47,11 @@
 }
 
 .proinfo {
-    box-shadow: 0 0 5px;
+    box-shadow: 0 0 5px #525252;
     border-radius: 10px;
     padding: 20px;
-    background: var(--color-gradient);
-    border: 0.5px solid rgb(181, 162, 67);
+    background: rgb(255 255 255 / 46%);
+    // border: 0.5px solid rgb(0, 0, 0);
     margin-bottom: 10px !important;
 }
 
@@ -45,12 +64,12 @@
 }
 
 .addimg {
-    box-shadow: 0 0 5px #645000;
+    box-shadow: 0 0 5px #525252;
     border-radius: 10px;
     padding: 10px;
     width: 70%;
-    background: var(--color-gradient);
-    border: 0.5px solid rgb(181, 162, 67);
+    background: rgb(255 255 255 / 46%);
+    // border: 0.5px solid rgb(181, 162, 67);
 
 }
 
