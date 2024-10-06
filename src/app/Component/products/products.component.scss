@@ -1,5 +1,3 @@
-/* Global Styles */
-
 .section {
   background-image: url("https://img.freepik.com/premium-photo/gold-glitters-are-symbol-new-year_954894-180839.jpg");
   background-size: cover;
@@ -11,7 +9,7 @@
   padding: 20px 15px;
 }
 
-/* Section 1 Styles */
+
 
 .section1 {
   width: 80%;
@@ -19,35 +17,22 @@
   margin-top: 30px;
   margin-bottom: 100px;
   padding: 20px;
-  border-radius: 10px;
+  
   height: 100%;
 }
 
-/* Carousel Styles */
-
-.carousel-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 100%;
-}
-
-.carousel {
-  width: 100%;
-  margin-bottom: 30px;
-}
-
-/* Card Styles */
 
 .card {
   text-align: center;
-  display: flex;
   flex-direction: column;
   border-radius: 60px !important;
   color: rgb(255, 255, 255);
   background-color: rgba(113, 113, 112, 0.5);
   height: 100%;
   box-shadow: 0 0 15px black;
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
 }
 
 .product-card-body {
@@ -55,7 +40,7 @@
   flex-direction: column;
   justify-content: center;
   flex: 1;
-  height: 10px;
+  height: 100%;
 }
 
 img {
@@ -65,49 +50,79 @@ img {
 }
 
 /* Button Styles */
-
 .btn {
   background-color: #D4A95A;
   color: black;
   text-align: center !important;
+  margin-bottom: 10px;
+}
+
+/* Styling for the button container */
+.card-buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#viewDetails {
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+#addToCart {
+  margin-left: 10px;
+  background-color: transparent; /* Set the background to transparent */
+  border: none; /* Remove the border */
+  cursor: pointer; /* Change the cursor to pointer */
+}
+
+#addToCart i {
+  font-size: 24px; /* Adjust the size of the icon */
+  vertical-align: middle; /* Align icon vertically with button */
+  color: #D4A95A; /* Set the icon color */
+}
+
+#addToCart:hover {
+  background-color: white; 
+  border-radius: 50%;
+width: 40px;
+height: 40px;
 }
 
 
+.icon-cart {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.icon-cart span {
+  position: absolute;
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #D4A95A;
+  top: -20px;
+  right: -20px;
+}
+
+#search-input {
+  display: inline-block !important;
+  width: 95% !important;
+}
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-
-/* Media Queries */
-
-@media (max-width: 768px) {
-  .section1 {
-    width: 90%;
-  }
-
-  .carousel-container {
-    flex-direction: row;
-  }
-
-  .carousel {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-}
-
-@media (max-width: 480px) {
-  .section1 {
-    width: 100%;
-  }
-
-  .carousel-container {
-    flex-direction: column;
-  }
-
-  .carousel {
-    width: 100%;
-    margin-bottom: 10px;
+@media (max-width: 968px) {
+  .icon-cart {
+    margin-top: 20px;
   }
 }

@@ -1,7 +1,13 @@
-<!-- <div class="section">
+<div class="section">
   <div class="search-bar mb-3">
-    <input type="text" [(ngModel)]="searchTerm" (input)="searchProducts()" class="form-control form-control-lg"
+    <input id="search-input" type="text" [(ngModel)]="searchTerm" (input)="searchProducts()" class="form-control form-control-lg"
       placeholder="Search for products..." />
+      <div class="icon-cart">
+        <a (click)="goToCart()">
+        <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #d4a95a;"></i>
+        <span id="counter">{{cartCount}}</span>
+        </a>
+    </div>
   </div>
 
   <button (click)="toggleFilter()" class="btn btn-lg mt-3">
@@ -28,118 +34,37 @@
       </form>
     </div>
   </div>
+
   <div class="section1">
-    <div class="carousel-container">
-      <div *ngFor="let productChunk of filteredProductsChunks">
-        <div class="carousel slide mt-3" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row">
-                <div class="col-md-4" *ngFor="let product of productChunk">
-                  <div class="card" style="border: none;">
-                    <img [src]="product.image" class="card-img-top product-image" [alt]="product.name" />
-                    <div class="card-body">
-                      <h5 class="card-title">{{ product.name }}</h5>
-                      <p class="card-text">$ {{ product.price }}</p>
-                      <button href="#" (click)="goToProductDetails(product.id)" class="btn mt-auto">View Details</button>
-                    </div>
-                  </div>
-                </div>
+    <div class="product-grid mt-3">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 my-3" *ngFor="let product of filteredProducts">
+          <div class="card" style="border: none;">
+            <img [src]="product.image" class="card-img-top product-image" [alt]="product.name" />
+            <div class="card-body">
+              <h5 class="card-title">{{ product.name }}</h5>
+              <p class="card-text">$ {{ product.price }}</p>
+              
+              <!-- Container for buttons to align them properly -->
+              <div class="card-buttons d-flex justify-content-center align-items-center">
+                <button (click)="goToProductDetails(product.id)" class="btn" id="viewDetails">View Details</button>
+                <button (click)="addToCart(product)" id="addToCart">
+                  <i class="fa-solid fa-cart-arrow-down fa-2xl"></i>
+                </button>
               </div>
             </div>
+            
+            
+            </div>
+            
           </div>
         </div>
       </div>
     </div>
   </div>
+
   <div *ngIf="errMsg" class="col-md-6 offset-md-3">
     <div class="text-danger bg-light text-center">
       {{errMsg}}
     </div>
   </div>
-</div> -->
-
-
-<div class="section">
-  <div class="container-fluid">
-
-
-    <div class="container">
-
-      <div class="search-bar mb-3">
-        <input type="text" [(ngModel)]="searchTerm" (input)="searchProducts()" class="form-control form-control-lg"
-          placeholder="Search for products...">
-      </div>
-
-
-      <button (click)="toggleFilter()" class="btn btn-lg mt-3">Filter</button>
-
-      <!-- Filter Form (Visible/Hidden based on isFilterVisible) -->
-      <div *ngIf="isFilterVisible" class="filter-form mt-3">
-        <div class="card card-body">
-          <h5>Filter Options</h5>
-          <form (submit)="applyFilters()">
-            <div class="mb-3">
-              <label for="category" class="form-label">Category Name:</label>
-              <input type="text" id="category" [(ngModel)]="filterCategory" name="category" class="form-control">
-            </div>
-
-            <div class="mb-3">
-              <label for="price" class="form-label">Max Price ($):</label>
-              <input type="number" id="price" [(ngModel)]="filterPrice" name="price" class="form-control">
-            </div>
-
-            <!-- <div class="mb-3">
-              <label for="date" class="form-label">Date:</label>
-              <input type="date" id="date" [(ngModel)]="filterDate" name="date" class="form-control">
-            </div> -->
-
-            <button type="submit" class="btn btn-primary">Apply Filters</button>
-
-          </form>
-        </div>
-      </div>
-    </div>
-
-
-<!-- 
-    <div class="section1">
-      <div class="carousel-container">
-
-      </div>
-    </div> -->
-
-    <!-- Error Message -->
-    <!-- <div *ngIf="errMsg" class="col-md-6 offset-md-3">
-      <div class="text-danger bg-light text-center">
-        {{errMsg}}
-      </div>
-    </div> -->
-
-
-
-
-
-
-    <div *ngFor="let productChunk of filteredProductsChunks">
-      <div class="carousel slide mt-3" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="row">
-              <div class="col-md-4" *ngFor="let product of productChunk">
-                <div class="card" style="border: none;">
-                  <img [src]="product.image" class="card-img -top product-image" [alt]="product.name">
-                  <div class="card-body">
-                    <h5 class="card-title">{{ product.name }}</h5>
-                    <p class="card-text">$ {{ product.price }}</p>
-                    <a href="#" class="btn mt-auto">View Details</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>

@@ -9,6 +9,15 @@ import { Router } from '@angular/router';
   styleUrls: ['./products.component.scss'],
 })
 export class ProductsComponent implements OnInit {
+  cartCount: number = 0;
+  addToCart(product: Iproduct) {
+    this.cartCount++;
+    window.localStorage.setItem('Iproduct', JSON.stringify(product));
+  }
+  goToCart() {
+    this.router.navigate(['/cart'])
+  }
+  
   products: Iproduct[] = [];
   filteredProducts: Iproduct[] = [];
   errMsg: string | null = null;
