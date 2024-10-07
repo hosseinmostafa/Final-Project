@@ -15,19 +15,7 @@
         },
         "@schematics/angular:pipe": {
           "standalone": false
-        },
-        "budgets": [
-          {
-            "type": "initial",
-            "maximumWarning": "1kb",
-            "maximumError": "2kb"
-          },
-          {
-            "type": "any",
-            "maximumWarning": "1kb",
-            "maximumError": "2kb"
-          }
-        ]
+        }
       },
       "root": "",
       "sourceRoot": "src",
