@@ -1,1 +1,189 @@
-.container-fluid{background-image:url("https://img.freepik.com/premium-photo/macrame-arrangement-with-copy-space_23-2149072871.jpg");display:flex;justify-content:center;align-items:center;min-height:100vh;background-repeat:no-repeat;background-attachment:fixed;background-color:#eee;background-size:cover;background-position:center;padding:20px}.container,.container[_ngcontent-ng-c2708429709]{margin:auto;max-width:90vw;padding-top:10px;transition:transform .5s}.container{text-align:end}.section1{margin:0 auto}.btn-shoping-card,.filtering{color:#000;text-align:center!important;margin-bottom:10px}#addToCart,.icon-shop{cursor:pointer;margin-left:10px}.filtering{padding:5px 15px;display:flex;justify-content:center;align-items:center;flex-direction:column;gap:10px;transition:.4s;background-color:#e0bc78}.card,img{transition:.3s;border-radius:20px}.filtering:hover{background-color:#ddb66d}.card{background-color:#eeeee6;padding:15px}.product-card-body{display:flex;flex-direction:column;justify-content:center;flex:1;height:100%}img{width:100%;height:450px;object-fit:cover}img:hover{transform:scale(1.02);opacity:.8}.btn-shoping-card{background-color:#f0ce8f;transition:.4s;font-weight:600}.btn-shoping-card:hover{background-color:#ddc79e}.card-buttons{margin-top:10px;display:flex;justify-content:center;align-items:center}#viewDetails{padding:10px 15px;display:inline-block}#addToCart{background-color:transparent;border:none;transition:.5s}#addToCart i{font-size:24px;vertical-align:middle;color:#d4a95a}#addToCart:hover{background-color:#000;border-radius:50%;width:40px;height:40px}.icon-cart{position:relative;display:inline-block}.container[_ngcontent-ng-c2708429709]{text-align:left}.search-bar.container{display:flex;justify-content:space-between;align-items:center;padding:20px 0}.icon-shop{display:flex;align-items:center;justify-content:center;gap:10px;color:#615c52;text-decoration:none;font-weight:700;text-transform:uppercase;transition:.3s;margin-top:20px;margin-bottom:20px}.icon-cart span{position:absolute;background-color:#f44336;width:30px;height:30px;display:flex;justify-content:center;align-items:center;border-radius:50%;color:#fff;top:50%;right:-20px}#search-input{display:inline-block!important;width:95%!important}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}@media (max-width:968px){.icon-cart{margin-top:20px}}
+.container-fluid {
+  background-image: url("https://img.freepik.com/premium-photo/macrame-arrangement-with-copy-space_23-2149072871.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #eee;
+  background-size: cover;
+  background-position: center;
+  padding: 20px
+}
+
+.container,
+.container[_ngcontent-ng-c2708429709] {
+  margin: auto;
+  max-width: 90vw;
+  padding-top: 10px;
+  transition: transform .5s
+}
+
+.container {
+  text-align: end
+}
+
+.section1 {
+  margin: 0 auto
+}
+
+.btn-shoping-card,
+.filtering {
+  color: #000;
+  text-align: center !important;
+  margin-bottom: 10px
+}
+
+#addToCart,
+.icon-shop {
+  cursor: pointer;
+  margin-left: 10px
+}
+
+.filtering {
+  padding: 5px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  transition: .4s;
+  background-color: #e0bc78
+}
+
+.card,
+img {
+  transition: .3s;
+  border-radius: 20px
+}
+
+.filtering:hover {
+  background-color: #ddb66d
+}
+
+.card {
+  background-color: #eeeee6;
+  padding: 15px
+}
+
+.product-card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  height: 100%
+}
+
+img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover
+}
+
+img:hover {
+  transform: scale(1.02);
+  opacity: .8
+}
+
+.btn-shoping-card {
+  background-color: #f0ce8f;
+  transition: .4s;
+  font-weight: 600
+}
+
+.btn-shoping-card:hover {
+  background-color: #ddc79e
+}
+
+.card-buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+#viewDetails {
+  padding: 10px 15px;
+  display: inline-block
+}
+
+#addToCart {
+  background-color: transparent;
+  border: none;
+  transition: .5s
+}
+
+#addToCart i {
+  font-size: 24px;
+  vertical-align: middle;
+  color: #d4a95a
+}
+
+#addToCart:hover {
+  background-color: #000;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px
+}
+
+.icon-cart {
+  position: relative;
+  display: inline-block
+}
+
+.container[_ngcontent-ng-c2708429709] {
+  text-align: left
+}
+
+.search-bar.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0
+}
+
+.icon-shop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #615c52;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: .3s;
+  margin-top: 20px;
+  margin-bottom: 20px
+}
+
+.icon-cart span {
+  position: absolute;
+  background-color: #f44336;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #fff;
+  top: 50%;
+  right: -20px
+}
+
+#search-input {
+  display: inline-block !important;
+  width: 95% !important
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0
+}
+
+@media (max-width:968px) {
+  .icon-cart {
+    margin-top: 20px
+  }
+}
