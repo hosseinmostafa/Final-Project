@@ -1,4 +1,5 @@
 export interface Iproduct{
+[x: string]: any;
                     id:string;
                     name:string;
                     price:number;
@@ -7,4 +8,5 @@ export interface Iproduct{
                     material:string;
                     dimensions:string;
                     date:string;
+                    quantity:number;
 }

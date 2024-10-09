@@ -65,7 +65,7 @@
                             <label for="email" class="form-label">Email Address</label>
                             <input [(ngModel)]="userModel.email" placeholder="example@example.ex" name="email"
                                 #email="ngModel" type="email" class="form-control p-2" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$"
+                                aria-describedby="emailHelp" pattern="^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,3})+$"
                                 required [class.is-invalid]="email.invalid && email.touched">
                             <small *ngIf="email.invalid && email.touched" class="text-danger">Email is
                                 required</small>

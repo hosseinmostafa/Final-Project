@@ -10,6 +10,7 @@ import { AddProductComponent } from './Component/add-product/add-product.compone
 import { UsersComponent } from './Component/users/users.component';
 import { ProductsComponent } from './Component/products/products.component';
 import { ProductDetailsComponent } from './Component/product-details/product-details.component';
+import { CartComponent } from './Component/cart/cart.component';
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
@@ -20,6 +21,7 @@ const routes: Routes = [
   {path:"product/:id",component:ProductDetailsComponent},
   { path: "users", component: UsersComponent },
   { path: "products", component: ProductsComponent },
+  {path:"cart",component:CartComponent},
   { path: "**", component: NotFondComponent },
 ];
 

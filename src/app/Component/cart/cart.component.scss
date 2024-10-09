@@ -1,0 +1,61 @@
+.section {
+    background-image: url("https://img.freepik.com/free-photo/heart-windchimes-wooden-plank-with-spool_23-2147898980.jpg?t=st=1728354012~exp=1728357612~hmac=7ffe05433c0fa77a8abba9e8958e15bdf59e49ae6577fc02adbb18f5c5c02b00&w=1060");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+
+}
+.card {
+    background-color: #d0cdcb;
+    margin: auto;
+    margin-top: 50px;
+    padding: 70px;
+    max-width: 1100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.table {
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    min-height: 250px;
+    max-width: 750px;
+    border-radius: 10px;
+    overflow: hidden;
+    border-collapse: collapse;
+    
+}
+th, td {
+    padding: 10px;
+    font-family: sans-serif;
+    border: none;
+}
+th {
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+}
+tr {
+    border-bottom: 1px solid #ccc;
+}
+.cart-total {
+    margin-top: 20px;
+}
+.checkbox-label {
+    display: flex;
+    align-items: center;
+}
+.checkbox-label input {
+    margin-right: 10px;
+}
+h5{
+    margin-bottom: 20px;
+}
+.btn {
+    background-color:#a39f95;
+    color: white;
+}
+.btn:hover {
+    background-color: var(--color-gradient);
+    color: black;
+}

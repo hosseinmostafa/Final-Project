@@ -6,7 +6,8 @@
     "price": 200,
     "description": "Melodic Muse is a captivating mixed media artwork that combines the richness of canvas painting with the intricacy of black thread drawing. The painting's background is a harmonious blend of earthy tones, featuring shades of brown, light yellow, and light brown, which provides a warm and inviting atmosphere. Upon this foundation, a beautiful young girl is depicted, lost in the world of music, with her eyes closed and her head tilted slightly to the side, as if savoring the sweet melodies.",
     "material": "Terracotta",
-    "date": "2024-09-01"
+    "date": "2024-09-01",
+    "quantity": 1
   },
   {
     "id": "2",
@@ -16,7 +17,8 @@
     "description": "is a vibrant and playful textile art installation that transforms the ordinary into the extraordinary. A curtain made entirely of colorful cotton balls, suspended from a delicate framework, creates a mesmerizing visual experience. The cotton balls, varying in size and hue, are carefully arranged to resemble a flowing fabric, evoking a sense of movement and energy.",
     "material": "Terracotta",
     "dimensions": "20cm x 10cm",
-    "date": "2024-09-01"
+    "date": "2024-09-01",
+    "quantity": 1
   },
   {
     "id": "3",
@@ -26,7 +28,8 @@
     "description": "The image showcases a collection of four glass frames, each containing a unique arrangement of pressed flowers and foliage, carefully suspended on a gray wall.",
     "material": "Ceramic",
     "dimensions": "25cm x 12cm",
-    "date": "2024-09-01"
+    "date": "2024-09-01",
+    "quantity": 1
   },
   {
     "id": "4",
@@ -36,7 +39,8 @@
     "description": " The mobile's delicate design features a crescent moon shape crafted from a wire frame, adorned with an assortment of beads and stones in various colors, including pink, blue, and green, which dangle from its bottom edge, Each bead or stone is carefully attached to a string, creating a sense of movement and fluidity. The mobile's intricate details are accentuated by a small, delicate rainbow-colored key dangling from its top edge, adding a touch of whimsy to the overall design.",
     "material": "Porcelain",
     "dimensions": "35cm x 15cm",
-    "date": "2024-09-01"
+    "date": "2024-09-01",
+    "quantity": 1
   },
   {
     "id": "5",
@@ -46,7 +50,8 @@
     "description": "A modern vase with a simple and elegant design, ideal for adding a touch of modernity and calm to any interior space",
     "material": "Glass",
     "dimensions": "40cm x 20cm",
-    "date": "2024-09-01"
+    "date": "2024-09-01",
+    "quantity": 1
   },
   {
     "id": "6",
@@ -56,7 +61,8 @@
     "description": "A handcrafted macrame wall decoration that adds a bohemian and cozy touch to any interior space. This wall-hanging piece features carefully woven threads forming geometric or natural patterns. It’s perfect for decorating living rooms, bedrooms, or even offices, bringing a sense of warmth and natural elegance to the environment.",
     "material": "Ceramic",
     "dimensions": "Varying sizes",
-    "date": "2024-09-01"
+    "date": "2024-09-01",
+    "quantity": 1
   },
   {
     "id": "7",
@@ -66,7 +72,8 @@
     "description": "Cozy sweater featuring a unique bird pattern, perfect for chilly days.",
     "material": "Wool",
     "size": "Medium",
-    "date": "2024-09-01"
+    "date": "2024-09-01",
+    "quantity": 1
   },
   {
     "id": "8",
@@ -76,7 +83,8 @@
     "description": "An elegant and warm knitted sweater featuring a beautiful flower design, gracefully placed on a table. This sweater combines comfort and style, making it perfect for chilly days. It can be worn for casual occasions or as part of a comfortable daily outfit, adding a touch of nature and liveliness to your look.",
     "material": "Cotton",
     "size": "Large",
-    "date": "2024-09-01"
+    "date": "2024-09-01",
+    "quantity": 1
   },
   {
     "id": "9",
@@ -86,7 +94,8 @@
     "description": "Detailed fabric design showcasing intricate hand-stitching and patterns.",
     "material": "Handwoven Fabric",
     "dimensions": "50cm x 50cm",
-    "date": "2024-09-01"
+    "date": "2024-09-01",
+    "quantity": 1
   },
   {
     "id": "10",
@@ -96,7 +105,8 @@
     "description": " An image of an interior designer arranging decorations in a home, showcasing focus and creativity in designing the space. The designer is surrounded by a collection of decorative elements that enhance the room's aesthetic, reflecting a modern and cozy style. This type of design illustrates professionalism and attention to detail in creating a comfortable and appealing environment.",
     "material": "wood",
     
-    "date": "2024-09-01"
+    "date": "2024-09-01",
+    "quantity": 1
   },
   {
     "id": "11",
@@ -106,7 +116,8 @@
     "description": "artistic arrangement of boho macrame indoors. The design features intricate details and natural colors, adding a touch of elegance and comfort to the room, reflecting a cozy and creative lifestyle..",
     "material": "Wool blend",
     
-    "date": "2024-09-01"
+    "date": "2024-09-01",
+    "quantity": 1
   },
   {
     "id": "12",
@@ -116,7 +127,8 @@
     "description": "a clothes drying table positioned against the wall in a home. This table adds a practical and modern touch to the space, providing a comfortable place to dry clothes neatly..",
     "material": "Wool threads ",
    
-    "date": "2024-09-01"
+    "date": "2024-09-01",
+    "quantity": 1
   },
   {
     "id": "13",
@@ -126,7 +138,8 @@
     "description": "autumn garland made of branches, dried orange slices, and fir branches, hanging against a brick wall. This garland adds a warm and natural touch to the space, reflecting the beauty of the fall season.",
     "material": "Silk",
     "dimensions": "180cm x 30cm",
-    "date": "2024-09-01"
+    "date": "2024-09-01",
+    "quantity": 1
   },
   {
     "id": "14",
@@ -136,7 +149,8 @@
     "description": "a wall calendar adorned with a Christmas design for the year 2022. This calendar captures the festive spirit through vibrant colors and celebratory symbols, making it a perfect addition to any space during the holiday season.",
     "material": "Wool",
 
-    "date": "2024-09-01"
+    "date": "2024-09-01",
+    "quantity": 1
   },
   {
     "id": "15",
@@ -146,7 +160,8 @@
     "description": " traditional arrangement of a macrame piece indoors, reflecting beautiful craftsmanship and elegance. This element adds a warm and natural touch to the room, embodying a cozy and inviting lifestyle..",
     "material": " Wool threads",
  
-    "date": "2024-09-01"
+    "date": "2024-09-01",
+    "quantity": 1
   },
   {
     "id": "16",
@@ -156,7 +171,8 @@
     "description": "artistic arrangement of a handmade macrame object, embodying craftsmanship and unique design. This piece adds a touch of natural elegance to the space, reflecting a modern style and attention to detail.",
     "material": "Beads",
     "dimensions": "50cm length",
-    "date": "2024-09-01"
+    "date": "2024-09-01",
+    "quantity": 1
   },
   {
     "id": "17",
@@ -166,7 +182,8 @@
     "description": "pottery vessel with a retro design, featuring intricate details and warm colors. This vessel makes a lovely addition to any space, reflecting cultural history and unique aesthetics.",
     "material": "pride",
     
-    "date": "2024-09-01"
+    "date": "2024-09-01",
+    "quantity": 1
   },
   {
     "id": "18",
@@ -176,7 +193,8 @@
     "description": " collection of flower paintings hanging on strings, adding an artistic and cheerful touch to the space. This arrangement reflects the beauty of nature and creative design.",
     "material": "Plastic ",
    
-    "date": "2024-09-01"
+    "date": "2024-09-01",
+    "quantity": 1
   },
   {
     "id": "19",
@@ -186,7 +204,8 @@
     "description": "three square glass cubes filled with colorful flowers and the word Spring written in an appealing way. This arrangement adds a touch of nature and beauty to the space, reflecting the spirit of spring and life.",
     "material": "glass",
    
-    "date": "2024-09-01"
+    "date": "2024-09-01",
+    "quantity": 1
   },
   {
     "id": "20",
@@ -196,7 +215,8 @@
     "description": " A close-up image of hanging wall decorations, showcasing intricate details and elegant design. These decorations add an artistic and aesthetic touch to any interior space, reflecting a unique style in decor.",
     "material": "Plastic",
  
-    "date": "2024-09-01"
+    "date": "2024-09-01",
+    "quantity": 1
   },
   {
     "id": "21",
@@ -206,7 +226,8 @@
     "description": " An image of frames displaying pictures and flowers arranged on a shelf, adding beauty and elegance to the space. The elements are coordinated in an appealing way that reflects a personal touch.",
     "material": "Embroidered Thread",
 
-    "date": "2024-09-01"
+    "date": "2024-09-01",
+    "quantity": 1
   },
   {
     "id": "22",
@@ -216,6 +237,7 @@
     "description": "A premium version of the colorful friendship bracelet, designed for special occasions.",
     "material": "Embroidered Thread",
     "size": "One Size Fits All",
-    "date": "2024-09-01"
+    "date": "2024-09-01",
+    "quantity": 1
   }
 ]
