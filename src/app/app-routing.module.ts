@@ -11,19 +11,21 @@ import { UsersComponent } from './Component/users/users.component';
 import { ProductsComponent } from './Component/products/products.component';
 import { ProductDetailsComponent } from './Component/product-details/product-details.component';
 import { CartComponent } from './Component/cart/cart.component';
-
+import { AuthGuard } from './auth.guard';
 const routes: Routes = [
   { path: "", component: HomeComponent },
   { path: "home", component: HomeComponent },
   { path: "sgin-in-sign-up", component: SginInSignUpComponent },
-  { path: "payment", component: PaymentComponent },
-  { path: "add-prouduct", component: AddProductComponent },
-  {path:"product/:id",component:ProductDetailsComponent},
+  { path: "payment", component: PaymentComponent, canActivate: [AuthGuard] }, 
+  { path: "add-prouduct", component: AddProductComponent, canActivate: [AuthGuard] }, 
+  { path: "product/:id", component: ProductDetailsComponent },
   { path: "users", component: UsersComponent },
   { path: "products", component: ProductsComponent },
   {path:"cart",component:CartComponent},
-  { path: "**", component: NotFondComponent },
+  { path: "", component: NotFondComponent },
 ];
+
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
